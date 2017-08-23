@@ -1,8 +1,9 @@
 library("shiny")
-#library("shinythemes")
+library("shinythemes")
 library("dplyr")
 library("DT")
-#library("Cairo")
+library("ggplot2")
+library("Cairo")
 library("rhandsontable")
 #------------------------------------------------------------------------------
-#options(shiny.usecairo = TRUE)
+options(shiny.usecairo = TRUE)
