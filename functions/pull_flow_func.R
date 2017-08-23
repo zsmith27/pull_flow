@@ -22,7 +22,9 @@ retrieve_flow <- function(gage = NULL, start.date = "1950-10-30",
            site = site_no, 
            timezone = tz_cd) %>% 
     mutate(dateTime = as.POSIXct(dateTime, format = "%Y-%m-%dT%H:%M"),
-           dateTime = as.POSIXct(round(dateTime, units = "hours"))) %>% 
+           dateTime = as.POSIXct(round(dateTime, units = "hours")),
+           # Subtract 5 hours to convert UTC to EST.
+           dateTime = dateTime - lubridate::hours(5)) %>% 
     group_by(agency, site, dateTime, qual_code, timezone) %>% 
     summarize(flow = mean(discharge_cfs)) %>% 
     ungroup(dateTime) %>%
