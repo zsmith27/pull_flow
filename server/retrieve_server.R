@@ -7,7 +7,8 @@ retrieved <- eventReactive(input$retrieve_table, {
                            start.date = start.date(),
                            end.date = end.date(),
                            service.type = input$data_type,
-                           shiny = TRUE)
+                           shiny = TRUE,
+                           n.cores = 2)
     } else if(input$data_set == "drupal") {
       pull.df <- pull_withdrawals(start.date = start.date(),
                                   end.date = end.date())
