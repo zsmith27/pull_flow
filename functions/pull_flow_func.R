@@ -44,7 +44,7 @@ isolate_retrieve_flow <- function(gages = NULL, start.date = "1950-10-30",
 #------------------------------------------------------------------------------
 pull_flow <- function(gages = NULL, start.date = "1950-10-30",
                       end.date = Sys.Date(), service.type = "iv",
-                      shiny = FALSE){
+                      shiny = FALSE, n.cores = NULL){
   if (!service.type %in% c("iv", "dv")) stop("service.type must be 'iv' (instantaneous) or 'dv' (daily values).")
   file.dir <- file.path("www/potomac_gages.csv")
   site.df <- data.table::fread(file.dir, data.table = FALSE,
@@ -56,7 +56,7 @@ pull_flow <- function(gages = NULL, start.date = "1950-10-30",
   site.vec <- site.df$site_no
   #----------------------------------------------------------------------------
   library(parallel)
-  n.cores <- detectCores() - 1
+  if (is.null(n.cores)) n.cores <- detectCores() - 1
   cl <- makeCluster(n.cores)
   clusterExport(cl = cl,
                 varlist = c("site.df", "site.vec", "retrieve_flow", "isolate_retrieve_flow"),
