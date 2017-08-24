@@ -106,7 +106,8 @@ pull_withdrawals <- function(start.date, end.date = Sys.Date()) {
                     stringr::str_detect(variable, stringr::regex("daily discharge", ignore_case = TRUE)) ~ "daily discharge",
                     TRUE ~ as.character(NA)
                   ),
-                  unique_id = paste(supplier, location) %>% trimws()
+                  unique_id = paste(supplier, location) %>% trimws(),
+                  today = as.Date(today)
     ) %>% 
     select(unique_id, supplier, location, day, time, measurement, today, value, units)
   return(final.df)
