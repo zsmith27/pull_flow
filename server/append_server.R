@@ -1,0 +1,3 @@
+appended <- reactive({
+  return(NULL)
+})
