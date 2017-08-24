@@ -35,6 +35,5 @@ data_table_retrieved <- reactive({
                           pageLength = 100,
                           color = "black"))
 })
-
 #------------------------------------------------------------------------------
 output$retrieve_table <- DT::renderDataTable(data_table_retrieved())
