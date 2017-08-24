@@ -51,7 +51,20 @@ output$plot <- renderPlot({
               x.class = "date_time",
               y.lab = "CFS")
   } else {
-    NULL
+    drupal_plots(sub.df(),
+               start.date = input$view_date_range[1],
+               end.date = input$view_date_range[2], 
+               min.flow = input$min_flow,
+               max.flow = input$max_flow,
+               gages.checked = input$view_unique_cbox,
+               #                c("conoco", "goose", "mon_jug", "barnum",
+               #                                "kitzmiller", "luke", "nbp_cumb", "opequan",
+               #                                "hanc", "paw", "por", "shepherdstown",
+               #                                "lfalls", "bloomington", "barton", 
+               #                                "seneca", "shen_mill"),
+               labels.vec = unique(sub.df()$unique_id),
+               x.class = "date_time",
+               y.lab = unique(sub.df()$units))
   }
   
 }) # End output$plot
@@ -59,6 +72,12 @@ output$plot <- renderPlot({
 #------------------------------------------------------------------------------
 
 sub.df <- reactive({
-  retrieved() %>% 
-    filter(site %in% input$view_gages_cbox)
+  if (input$data_set == "usgs") {
+    retrieved() %>% 
+      filter(site %in% input$view_gages_cbox)
+  } else if (input$data_set == "drupal") {
+    retrieved() %>% 
+      filter(unique_id %in% input$view_unique_cbox)
+  }
+
 })
