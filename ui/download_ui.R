@@ -10,6 +10,9 @@ tabPanel("Download",
                     downloadButton(outputId = "downloadData",
                                    lablel = "Download Data")
                   )
+           ),
+           column(9,
+                  dataTableOutput('final_table')
                   
            )
          ) # End fluidRow
