@@ -39,14 +39,14 @@ usgs.gages <- reactive({
 
 #----------------------------------------------------------------------------
 observeEvent(input$view_reset_usgs, {
-  updateCheckboxGroupInput(session, "view_gages_cbox", 
-                           selected = usgs.gages()$code)
-#                             c("conoco", "goose", "mon_jug", "barnum",
-#                                        "kitzmiller", "luke", "nbp_cumb", "opequan",
-#                                        "hanc", "paw", "por", "shepherdstown",
-#                                        "lfalls", "bloomington", "barton", 
-#                                        "seneca", "shen_mill"))
-})
+    updateCheckboxGroupInput(session, "view_gages_cbox", 
+                             selected = usgs.gages()$code)
+    #                             c("conoco", "goose", "mon_jug", "barnum",
+    #                                        "kitzmiller", "luke", "nbp_cumb", "opequan",
+    #                                        "hanc", "paw", "por", "shepherdstown",
+    #                                        "lfalls", "bloomington", "barton", 
+    #                                        "seneca", "shen_mill"))
+  })
 #----------------------------------------------------------------------------
 observeEvent(input$view_clear_usgs, {
   updateCheckboxGroupInput(session, "view_gages_cbox", "USGS Gage",
@@ -67,5 +67,22 @@ observeEvent(input$view_clear_usgs, {
                              "Savage River Near Barton, MD" = "barton",
                              "Seneca Creek at Dawsonville, MD" = "seneca",
                              "Shenandoah River at Millville, WV" = "shen_mill"),
+                           selected = NULL)
+})
+#----------------------------------------------------------------------------
+observeEvent(input$retrieve_table, {
+  updateCheckboxGroupInput(session, "view_unique_cbox", 
+                           choices = unique(retrieved()$unique_id),
+                           selected = unique(retrieved()$unique_id))
+})
+#----------------------------------------------------------------------------
+observeEvent(input$view_reset_drupal, {
+  updateCheckboxGroupInput(session, "view_unique_cbox", 
+                           selected = unique(retrieved()$unique_id))
+})
+#----------------------------------------------------------------------------
+observeEvent(input$view_clear_drupal, {
+  updateCheckboxGroupInput(session, "view_unique_cbox",
+                           choices = unique(retrieved()$unique_id),
                            selected = NULL)
 })
