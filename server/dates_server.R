@@ -10,3 +10,8 @@ end.date <- reactive({
     as.POSIXct()
 })
 #------------------------------------------------------------------------------
+observeEvent(input$retrieve_table, {
+  updateDateRangeInput(session, "view_date_range",
+                       start = start.date(),
+                       end = end.date())
+})
