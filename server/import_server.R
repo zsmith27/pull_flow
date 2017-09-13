@@ -16,7 +16,11 @@ retrieved <- eventReactive(input$retrieve_table, {
     incProgress(1/2)
   })
   
-  
+  pull.df <- pull.df %>% 
+    dplyr::mutate(comments = NA,
+                  # rhandsontable does not currently handle POSIXct.
+                  # convert POSIXct to class character.
+                  date_time = as.character(date_time))
   return(pull.df)
 })
 #------------------------------------------------------------------------------
