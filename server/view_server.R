@@ -81,3 +81,23 @@ sub.df <- reactive({
   }
 
 })
+#------------------------------------------------------------------------------
+sites.vec <- reactive({
+  site.vec <- retrieved() %>%
+    dplyr::select(site) %>% 
+    dplyr::distinct() %>% 
+    dplyr::pull(site)
+  sites.vec <- usgs.gages %>% 
+    dplyr::filter(code %in% site.vec)
+    dplyr::select(code) %>% 
+    dplyr::distinct() %>% 
+    dplyr::arrange(code) %>% 
+    dplyr:pull(code)
+})
+#------------------------------------------------------------------------------
+output$view_unique_cbox <- renderUI({
+  checkboxGroupInput("view_gages_cbox",  "USGS Gage",
+                     sites.vec(),
+                     selected = sites.vec())
+})
+#------------------------------------------------------------------------------
