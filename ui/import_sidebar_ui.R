@@ -16,7 +16,7 @@ sidebarPanel(
   hr(),
   conditionalPanel(condition = "input.data_set == 'usgs'",
                    radioButtons("data_type", "Data Type:",
-                                choices = c("Instantaneous" = "iv",
+                                choices = c("Hourly" = "iv",
                                             "Daily" = "dv"),
                                 selected = "iv",
                                 inline = TRUE),
