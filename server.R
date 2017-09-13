@@ -8,18 +8,20 @@ shinyServer(function(input, output, session) {
   # Tab Import
   source("server/reset_sel_server.R", local = TRUE)
   source("server/dates_server.R", local = TRUE)
-  source("server/retrieve_server.R", local = TRUE)
+  source("server/import_server.R", local = TRUE)
   #----------------------------------------------------------------------------
   # Tab View
-  source("server/download_server.R", local = TRUE)
+  source("server/view_server.R", local = TRUE)
+  
   #----------------------------------------------------------------------------
   # Tab Edit
-  source("server/rhandsontable_server.R", local = TRUE)
+  source("server/edit_server.R", local = TRUE)
   #----------------------------------------------------------------------------
   # Tab Append
+  source("server/append_server.R", local = TRUE)
   #----------------------------------------------------------------------------
   # Tab Download
-  source("server/view_server.R", local = TRUE)
+  source("server/download_server.R", local = TRUE)
   #----------------------------------------------------------------------------
   #source("server/filter_server.R", local = TRUE)
 })
