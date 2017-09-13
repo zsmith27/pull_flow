@@ -1,7 +1,15 @@
+#sub.import <- eventReactive({
+  
+#})
+
+
+
+
+#------------------------------------------------------------------------------
 output$hot <- renderRHandsontable({
   DF <- retrieved()
   if (!is.null(DF)) {
-    rhandsontable(DF) %>% 
+    rhandsontable(DF, width = 625, height = 700) %>% 
       hot_table(highlightCol = TRUE, highlightRow = TRUE) %>% 
       hot_cols(columnSorting = TRUE)
   }
