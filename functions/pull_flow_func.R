@@ -1,6 +1,11 @@
 retrieve_flow <- function(gage = NULL, start.date = "1950-10-30",
                           end.date = Sys.Date(), service.type = "iv",
                           site.table) {
+  if (service.type == "iv") {
+    e.date <- end.date + lubridate::days(1)
+  } else {
+    e.date <- end.date
+  }
   gage.df <- dataRetrieval::readNWISdata(service = service.type,
                                          site = gage,
                                          startDate = start.date,
@@ -17,14 +22,22 @@ retrieve_flow <- function(gage = NULL, start.date = "1950-10-30",
   #--------------------------------------------------------------------------
   names(gage.df)[4:5] <- c("discharge_cfs", "qual_code")
   #--------------------------------------------------------------------------
+  if (service.type == "iv") {
+    gage.df <- gage.df %>% 
+      dplyr::mutate(dateTime = as.POSIXct(dateTime, format = "%Y-%m-%dT%H:%M"),
+                    dateTime = as.POSIXct(round(dateTime, units = "hours")),
+                    # Subtract 5 hours to convert UTC to EST.
+                    dateTime = dateTime - lubridate::hours(5),
+                    tz_cd = "EST") %>% 
+      dplyr::filter(dateTime >= start.date,
+                    dateTime <= end.date)
+  }
+  
+  #--------------------------------------------------------------------------
   final.df <- gage.df %>% 
     rename(agency = agency_cd,
            site = site_no, 
            timezone = tz_cd) %>% 
-    mutate(dateTime = as.POSIXct(dateTime, format = "%Y-%m-%dT%H:%M"),
-           dateTime = as.POSIXct(round(dateTime, units = "hours")),
-           # Subtract 5 hours to convert UTC to EST.
-           dateTime = dateTime - lubridate::hours(5)) %>% 
     group_by(agency, site, dateTime, qual_code, timezone) %>% 
     summarize(flow = mean(discharge_cfs)) %>% 
     ungroup(dateTime) %>%

@@ -107,9 +107,15 @@ pull_withdrawals <- function(start.date, end.date = Sys.Date()) {
                     TRUE ~ as.character(NA)
                   ),
                   unique_id = paste(supplier, location) %>% trimws(),
-                  today = as.Date(today)
+                  today = as.Date(today),
+                  date_time = dplyr::case_when(
+                    day == "yesterday" ~ today - lubridate::days(1),
+                    day == "today" ~ today,
+                    day == "tomorrow" ~ today + lubridate::days(1),
+                    TRUE ~ today
+                  )
     ) %>% 
-    select(unique_id, supplier, location, day, time, measurement, today, value, units)
+    select(unique_id, supplier, location, date_time, day, time, measurement, today, value, units)
   return(final.df)
 }
 
