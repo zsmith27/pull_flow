@@ -32,7 +32,6 @@ retrieve_flow <- function(gage = NULL, start.date = "1950-10-30",
       dplyr::filter(dateTime >= start.date,
                     dateTime <= end.date)
   }
-  
   #--------------------------------------------------------------------------
   final.df <- gage.df %>% 
     rename(agency = agency_cd,
