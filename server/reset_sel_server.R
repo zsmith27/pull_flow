@@ -40,7 +40,7 @@ usgs.gages <- reactive({
 #----------------------------------------------------------------------------
 observeEvent(input$view_reset_usgs, {
     updateCheckboxGroupInput(session, "view_gages_cbox", 
-                             selected = sites.vec())
+                             selected = sites.vec()$description)
     #                             c("conoco", "goose", "mon_jug", "barnum",
     #                                        "kitzmiller", "luke", "nbp_cumb", "opequan",
     #                                        "hanc", "paw", "por", "shepherdstown",
@@ -50,7 +50,7 @@ observeEvent(input$view_reset_usgs, {
 #----------------------------------------------------------------------------
 observeEvent(input$view_clear_usgs, {
   updateCheckboxGroupInput(session, "view_gages_cbox", "USGS Gage",
-                           sites.vec(),
+                           sites.vec()$description,
                            selected = NULL)
 })
 #----------------------------------------------------------------------------
