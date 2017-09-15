@@ -1,11 +1,13 @@
 name: coop_data_download
 title: Coop Data Download
+username:
 account: zsmith
 server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
 appId: 206764
-bundleId: 952810
+bundleId: 983210
 url: https://zsmith.shinyapps.io/coop_data_download/
-when: 1503575618.29879
+when: 1505480380.05296
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: actions/hourly_pull.R|actions/taskscheduler.R|actions/withdrawal_pull.R|global/install_packages.R|ui/old_ui.R
