@@ -1,3 +1,30 @@
+#------------------------------------------------------------------------------
+sites.vec <- reactive({
+  if (input$data_set == "usgs") {
+    site.vec <- unique(retrieved()$site)
+    
+    site.vec <- usgs.gages.df %>%  
+      dplyr::filter(code %in% site.vec) %>% 
+      dplyr::distinct() %>% 
+      dplyr::arrange(code) 
+  }
+  
+  if (input$data_set == "drupal") {
+    site.vec <- unique(retrieved()$unique_id)
+  }
+  
+  return(site.vec)
+})
+#------------------------------------------------------------------------------
+output$view_unique_cbox <- renderUI({
+  checkboxGroupInput("view_gages_cbox",  "USGS Gage",
+                     sites.vec()$description,
+                     selected = sites.vec()$description)
+})
+#------------------------------------------------------------------------------
+
+
+
 output$plot <- renderPlot({
   start.date <- start.date()
   end.date <- end.date()
@@ -8,7 +35,7 @@ output$plot <- renderPlot({
               end.date = input$view_date_range[2], 
               min.flow = input$min_flow,
               max.flow = input$max_flow,
-              gages.checked = input$view_gages_cbox,
+              gages.checked = input$view_unique_cbox,
 #                c("conoco", "goose", "mon_jug", "barnum",
 #                                "kitzmiller", "luke", "nbp_cumb", "opequan",
 #                                "hanc", "paw", "por", "shepherdstown",
@@ -81,23 +108,3 @@ sub.df <- reactive({
   }
 
 })
-#------------------------------------------------------------------------------
-sites.vec <- reactive({
-  site.vec <- retrieved() %>%
-    dplyr::select(site) %>% 
-    dplyr::distinct() %>% 
-    dplyr::pull(site)
-  sites.vec <- usgs.gages %>% 
-    dplyr::filter(code %in% site.vec)
-    dplyr::select(code) %>% 
-    dplyr::distinct() %>% 
-    dplyr::arrange(code) %>% 
-    dplyr:pull(code)
-})
-#------------------------------------------------------------------------------
-output$view_unique_cbox <- renderUI({
-  checkboxGroupInput("view_gages_cbox",  "USGS Gage",
-                     sites.vec(),
-                     selected = sites.vec())
-})
-#------------------------------------------------------------------------------
