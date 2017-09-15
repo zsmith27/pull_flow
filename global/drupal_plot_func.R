@@ -96,7 +96,8 @@ drupal_plots <- function(data.df, start.date, end.date,
   
   final.plot <- final.plot +
     coord_cartesian(xlim = c(as.POSIXct(start.date), as.POSIXct(end.date)),
-                    ylim = c(min.flow, max.flow))
+                    ylim = c(min.flow, max.flow),
+                    expand = FALSE)
   
   #----------------------------------------------------------------------------
   return(final.plot)

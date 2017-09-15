@@ -6,6 +6,10 @@ usgs_plots <- function(data.df, start.date, end.date,
                       x.class,
                       x.lab = "Date Time", y.lab = "Flow (CFS)") {
   #--------------------------------------------------------------------------
+  gages.checked <- usgs.gages.df %>% 
+    dplyr::filter(description %in% gages.checked) %>% 
+    dplyr::pull(code)
+  #--------------------------------------------------------------------------
   start.date <- as.Date(start.date)
   end.date <- as.Date(end.date)
   if (x.class == "datetime") {
@@ -96,7 +100,8 @@ usgs_plots <- function(data.df, start.date, end.date,
   
   final.plot <- final.plot +
     coord_cartesian(xlim = c(as.POSIXct(start.date), as.POSIXct(end.date)),
-                    ylim = c(min.flow, max.flow))
+                    ylim = c(min.flow, max.flow),
+                    expand = FALSE)
   
   #----------------------------------------------------------------------------
   return(final.plot)
