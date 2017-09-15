@@ -16,6 +16,16 @@ retrieve_flow <- function(gage = NULL, start.date = "1950-10-30",
                                          # Dischrage Code.
                                          parameterCd = "00060")
   #--------------------------------------------------------------------------
+  if (nrow(gage.df) == 0) {
+    na.df <- data.frame(agency = NA,
+                        site = NA,
+                        date_time = NA,
+                        wuql_code = NA,
+                        timezone = NA,
+                        flow = NA)
+    return(na.df)
+  }
+  #--------------------------------------------------------------------------
   name.string <- site.table %>%
     filter(site_no == gage) %>% 
     pull(code)

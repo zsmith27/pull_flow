@@ -29,7 +29,15 @@ output$retrieved_table <- renderTable({
 })
 #------------------------------------------------------------------------------
 data_table_retrieved <- reactive({
-  final.dt <- datatable(retrieved(),
+  retrieved.df <- retrieved() %>% 
+    dplyr::filter(rowSums(is.na(.)) != ncol(.))
+  
+  validate(
+    need(nrow(retrieved.df) > 0,
+         "No data available for the selected data.")
+  )
+
+  final.dt <- datatable(retrieved.df,
                         options = list(
                           #scrollX = 2000, 
                           scrollY = 700,
