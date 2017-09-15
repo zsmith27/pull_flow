@@ -56,7 +56,8 @@ pull_drupal <- function(start.date, end.date) {
 }
 #-----------------------------------------------------------------------------------------------------------
 pull_withdrawals <- function(start.date, end.date = Sys.Date()) {
-  final.df <- pull_drupal(start.date, end.date) %>% 
+  e.date <- end.date + lubridate::days(1)
+  final.df <- pull_drupal(start.date, e.date) %>% 
     tidyr::gather(variable, value, -Today) %>% 
     dplyr::filter(!is.na(value)) %>% 
     dplyr::bind_cols(stringr::str_split(.$variable, "\\.\\.", simplify = TRUE) %>% data.frame()) %>% 
@@ -106,15 +107,17 @@ pull_withdrawals <- function(start.date, end.date = Sys.Date()) {
                     stringr::str_detect(variable, stringr::regex("daily discharge", ignore_case = TRUE)) ~ "daily discharge",
                     TRUE ~ as.character(NA)
                   ),
-                  unique_id = paste(supplier, location) %>% trimws(),
+                  unique_id = paste(supplier, location, measurement) %>% trimws(),
                   today = as.Date(today),
                   date_time = dplyr::case_when(
                     day == "yesterday" ~ today - lubridate::days(1),
                     day == "today" ~ today,
                     day == "tomorrow" ~ today + lubridate::days(1),
                     TRUE ~ today
-                  )
+                  ) 
     ) %>% 
+    dplyr::filter(date_time >= as.Date(start.date),
+                  date_time <= as.Date(end.date)) %>% 
     select(unique_id, supplier, location, date_time, day, time, measurement, today, value, units)
   return(final.df)
 }
