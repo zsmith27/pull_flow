@@ -17,8 +17,7 @@ sidebarPanel(
                    hr()
   ), # End Conditional Panel usgs
   conditionalPanel(condition = "input.data_set == 'drupal'",
-                   checkboxGroupInput("view_unique_cbox",  "Unique ID:",
-                                      NULL),
+                   checkboxGroupInput("view_unique_cbox",  "Unique ID:"),
                    actionButton("view_reset_drupal", "Reset"),
                    actionButton("view_clear_drupal", "Clear"),
                    hr(),
