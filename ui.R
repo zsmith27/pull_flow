@@ -1,5 +1,6 @@
 shinyUI(
-  navbarPage("COOP",
+  navbarPage(title = tags$a("", href = "http://icprbcoop.org/drupal4/self-breifing-conditions", target = "_blank",
+                            tags$span(style="color:white", "CO-OP")),
              id = "tab",
              inverse = TRUE, 
              theme = shinythemes::shinytheme("spacelab"),
