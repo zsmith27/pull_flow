@@ -5,9 +5,9 @@ account: zsmith
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 206764
-bundleId: 983210
+bundleId: 989880
 url: https://zsmith.shinyapps.io/coop_data_download/
-when: 1505480380.05296
+when: 1505934408.54596
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: actions/hourly_pull.R|actions/taskscheduler.R|actions/withdrawal_pull.R|global/install_packages.R|ui/old_ui.R

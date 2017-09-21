@@ -1,4 +1,5 @@
-
+start.date <- "2017-09-18"
+end.date <- "2017-09-20"
 #------------------------------------------------------------------------------
 format_date <- function(date) {
   new.date <- lubridate::as_date(date)
@@ -60,7 +61,7 @@ pull_withdrawals <- function(start.date, end.date = Sys.Date()) {
   final.df <- pull_drupal(start.date, e.date) %>% 
     tidyr::gather(variable, value, -Today) %>% 
     dplyr::filter(!is.na(value)) %>% 
-    # dplyr::bind_cols(stringr::str_split(.$variable, " ", simplify = TRUE) %>% data.frame()) %>% 
+   # dplyr::bind_cols(stringr::str_split(.$variable, " ", simplify = TRUE) %>% data.frame()) %>% 
     #dplyr::select(-variable) %>% 
     dplyr::rename_all(tolower) %>% 
     dplyr::mutate(variable = stringr::str_replace_all(variable, "\\.", " ") %>% stringr::str_trim(),
