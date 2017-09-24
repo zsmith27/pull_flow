@@ -59,6 +59,8 @@ pull_drupal <- function(start.date, end.date) {
 pull_withdrawals <- function(start.date, end.date = Sys.Date()) {
   e.date <- end.date + lubridate::days(1)
   final.df <- pull_drupal(start.date, e.date) %>% 
+    
+    test <- final.df %>% 
     tidyr::gather(variable, value, -Today) %>% 
     dplyr::filter(!is.na(value)) %>% 
    # dplyr::bind_cols(stringr::str_split(.$variable, " ", simplify = TRUE) %>% data.frame()) %>% 
@@ -111,8 +113,8 @@ pull_withdrawals <- function(start.date, end.date = Sys.Date()) {
                                       paste(supplier, location, measurement) %>% trimws()),
                   today = as.Date(today),
                   date_time = dplyr::case_when(
+                    is.na(day) ~ today,
                     day == "yesterday" ~ today - lubridate::days(1),
-                    day == "today" ~ today,
                     day == "tomorrow" ~ today + lubridate::days(1),
                     TRUE ~ today
                   ) 
