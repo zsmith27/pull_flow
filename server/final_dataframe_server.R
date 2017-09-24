@@ -10,6 +10,8 @@ final.df <- reactive({
   
   if (!is.null(appended())) final.df <- edited()
   
+  final.df <- final.df %>% 
+    dplyr::mutate(date_time = as.POSIXct(date_time))
   return(final.df)
 })
 #------------------------------------------------------------------------------
