@@ -110,8 +110,8 @@ pull_withdrawals <- function(start.date, end.date = Sys.Date()) {
                                       paste(supplier, location, measurement) %>% trimws()),
                   today = as.Date(today),
                   date_time = dplyr::case_when(
+                    is.na(day) ~ today,
                     day == "yesterday" ~ today - lubridate::days(1),
-                    day == "today" ~ today,
                     day == "tomorrow" ~ today + lubridate::days(1),
                     TRUE ~ today
                   ) 
