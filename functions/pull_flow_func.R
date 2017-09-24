@@ -80,6 +80,7 @@ pull_flow <- function(gages = NULL, start.date = "1950-10-30",
   library(parallel)
   if (is.null(n.cores)) n.cores <- detectCores() - 1
   cl <- makeCluster(n.cores)
+  on.exit(stopCluster(cl))
   clusterExport(cl = cl,
                 varlist = c("site.df", "site.vec", "retrieve_flow", "isolate_retrieve_flow"),
                 envir = environment())
@@ -102,7 +103,7 @@ pull_flow <- function(gages = NULL, start.date = "1950-10-30",
     })
   }
 
-  on.exit(stopCluster(cl))
+  
   #------------------------------------------------------------------------------
   final.df <- bind_rows(flow.list)
   #------------------------------------------------------------------------------
