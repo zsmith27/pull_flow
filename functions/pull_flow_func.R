@@ -47,7 +47,7 @@ retrieve_flow <- function(gage = NULL, start.date = "1950-10-30",
     rename(agency = agency_cd,
            site = site_no, 
            timezone = tz_cd) %>% 
-    group_by(agency, site, dateTime, qual_code, timezone) %>% 
+    group_by(agency, site, dateTime) %>% 
     summarize(flow = mean(discharge_cfs)) %>% 
     ungroup(dateTime) %>%
     mutate(site = name.string) %>% 
