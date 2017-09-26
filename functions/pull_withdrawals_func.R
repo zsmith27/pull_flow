@@ -67,8 +67,8 @@ pull_withdrawals <- function(start.date, end.date = Sys.Date()) {
                   units = gsub("\\(([^()]*)\\)|.", "\\1", variable, perl = TRUE),
                   supplier = gsub(" -.*", "", variable, perl = TRUE),
                   location = case_when(
-                    stringr::str_detect(variable, stringr::regex("Potomac River at Great Falls", ignore_case = TRUE)) ~ "Potomac River at Great Falls",
-                    stringr::str_detect(variable, stringr::regex("Potomac River at Little Falls", ignore_case = TRUE)) ~ "Potomac River at Little Falls",
+                    stringr::str_detect(variable, stringr::regex("Potomac River at Great Falls", ignore_case = TRUE)) ~ "Potomac River",
+                    stringr::str_detect(variable, stringr::regex("Potomac River at Little Falls", ignore_case = TRUE)) ~ "Potomac River",
                     stringr::str_detect(variable, stringr::regex("Potomac River", ignore_case = TRUE)) ~ "Potomac River",
                     stringr::str_detect(variable, stringr::regex("Little Reservoir", ignore_case = TRUE)) ~ "Little Reservoir",
                     stringr::str_detect(variable, stringr::regex("Patuxent Reservoirs", ignore_case = TRUE)) ~ "Patuxent Reservoirs",
