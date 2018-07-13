@@ -8,7 +8,10 @@ retrieved <- eventReactive(input$retrieve_table, {
                            end.date = end.date(),
                            service.type = input$data_type,
                            shiny = TRUE,
-                           n.cores = 2)
+                           n.cores = 2) %>% 
+        dplyr::left_join(usgs.gages.df, by = c("site" = "code")) %>% 
+        dplyr::mutate(flow = if_else(flow < 0, as.numeric(NA), flow)) %>% 
+        dplyr::select(agency, site_no, site, description, date_time, flow)
     } else if(input$data_set == "drupal") {
       pull.df <- pull_withdrawals(start.date = start.date(),
                                   end.date = end.date())
@@ -17,7 +20,7 @@ retrieved <- eventReactive(input$retrieve_table, {
   })
   
   pull.df <- pull.df %>% 
-    dplyr::mutate(comments = NA,
+    dplyr::mutate(comments = as.character(NA),
                   # rhandsontable does not currently handle POSIXct.
                   # convert POSIXct to class character.
                   date_time = as.character(date_time))

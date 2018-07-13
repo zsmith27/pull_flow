@@ -3,14 +3,23 @@
 #})
 
 
-
+# output$hot <- renderDT({
+#   DF <- retrieved()
+#   if (!is.null(DF)) {
+#     DT::datatable(DF,
+#                   width = 625,
+#                   height = 700, 
+#                   editable = TRUE)
+#   }
+# })
 
 #------------------------------------------------------------------------------
 output$hot <- renderRHandsontable({
-  DF <- retrieved()
+  DF <- retrieved() %>% 
+    mutate(comments = as.character(comments))
   if (!is.null(DF)) {
-    rhandsontable(DF, width = 625, height = 700) %>% 
-      hot_table(highlightCol = TRUE, highlightRow = TRUE) %>% 
+    rhandsontable(DF, height = 700) %>%
+      hot_table(highlightCol = TRUE, highlightRow = TRUE) %>%
       hot_cols(columnSorting = TRUE)
   }
 
