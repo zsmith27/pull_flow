@@ -1,25 +1,26 @@
 #------------------------------------------------------------------------------
-sites.vec <- reactive({
+sites.df <- reactive({
   if (input$data_set == "usgs") {
     site.vec <- unique(retrieved()$site)
     
-    site.vec <- usgs.gages.df %>%  
+    site.df <- usgs.gages.df %>%  
       dplyr::filter(code %in% site.vec) %>% 
       dplyr::distinct() %>% 
       dplyr::arrange(code) 
   }
   
   if (input$data_set == "drupal") {
-    site.vec <- unique(retrieved()$unique_id)
+    site.df <- retrieved()#unique(retrieved()$unique_id)
   }
   
-  return(site.vec)
+  return(site.df)
 })
 #------------------------------------------------------------------------------
 output$view_unique_cbox <- renderUI({
-  checkboxGroupInput("view_gages_cbox",  "USGS Gage",
-                     sites.vec()$description,
-                     selected = sites.vec()$description)
+  checkboxGroupInput(inputId = "view_gages_cbox",
+                     label = "USGS Gage",
+                     choices = sites.df()$description,
+                     selected = sites.df()$description)
 })
 #------------------------------------------------------------------------------
 
@@ -29,18 +30,20 @@ output$plot <- renderPlot({
   start.date <- start.date()
   end.date <- end.date()
   #----------------------------------------------------------------------------
+  validate(
+    need(nrow(sub.df()) != 0,
+         "No data available.")
+    
+  )
+  #----------------------------------------------------------------------------
   if (input$data_set == "usgs") {
     usgs_plots(sub.df(),
               start.date = input$view_date_range[1],
               end.date = input$view_date_range[2], 
               min.flow = input$min_flow,
               max.flow = input$max_flow,
-              gages.checked = input$view_unique_cbox,
-#                c("conoco", "goose", "mon_jug", "barnum",
-#                                "kitzmiller", "luke", "nbp_cumb", "opequan",
-#                                "hanc", "paw", "por", "shepherdstown",
-#                                "lfalls", "bloomington", "barton", 
-#                                "seneca", "shen_mill"),
+              usgs.gages.df = usgs.gages.df,
+              gages.checked = input$view_gages_cbox,
               labels.vec = c("conoco" = "Conococheague Creek at Fairfview, MD",
                               "goose" = "Goose Creek near Leesburg, VA",
                               "mon_jug" = "Monocacy River at Jug Bridge near Frederick, MD",
@@ -58,23 +61,6 @@ output$plot <- renderPlot({
                               "barton" = "Savage River Near Barton, MD",
                               "seneca" = "Seneca Creek at Dawsonville, MD",
                               "shen_mill" = "Shenandoah River at Millville, WV"),
-#              color.vec = c("conoco",
-#                             "goose",
-#                             "mon_jug",
-#                             "barnum",
-#                             "kitzmiller",
-#                             "luke",
-#                             "nbp_cumb",
-#                             "opequan",
-#                           "hanc",
-#                             "paw",
-#                             "por",
-#                             "shepherdstown",
-#                             "lfalls",
-#                             "bloomington",
-#                             "barton", 
-#                             "seneca",
-#                             "shen_mill"),
               x.class = "date_time",
               y.lab = "CFS")
   } else {
@@ -84,11 +70,6 @@ output$plot <- renderPlot({
                min.flow = input$min_flow,
                max.flow = input$max_flow,
                gages.checked = input$view_unique_cbox,
-               #                c("conoco", "goose", "mon_jug", "barnum",
-               #                                "kitzmiller", "luke", "nbp_cumb", "opequan",
-               #                                "hanc", "paw", "por", "shepherdstown",
-               #                                "lfalls", "bloomington", "barton", 
-               #                                "seneca", "shen_mill"),
                labels.vec = unique(sub.df()$unique_id),
                x.class = "date_time",
                y.lab = unique(sub.df()$units))
@@ -101,7 +82,7 @@ output$plot <- renderPlot({
 sub.df <- reactive({
   if (input$data_set == "usgs") {
     retrieved() %>% 
-      filter(site %in% input$view_gages_cbox)
+      filter(description %in% input$view_gages_cbox)
   } else if (input$data_set == "drupal") {
     retrieved() %>% 
       filter(unique_id %in% input$view_unique_cbox)
