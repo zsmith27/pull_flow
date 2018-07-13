@@ -10,5 +10,5 @@ usgs.gages.df <- data.table::fread(file.dir, data.table = FALSE,
                              colClasses = list(character = c("site_no"))) %>% 
   mutate(site_no = paste0("0", site_no))
 #------------------------------------------------------------------------------
-plot.height <- "340px"
-plot.width <- "95%"
+plot.height <- "700px"
+plot.width <- "100%"
