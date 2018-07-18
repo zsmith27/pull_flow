@@ -5,9 +5,9 @@ account: zsmith
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 206764
-bundleId: 989880
+bundleId: 1479804
 url: https://zsmith.shinyapps.io/coop_data_download/
-when: 1505934408.54596
+when: 1531512787.4145
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: actions/hourly_pull.R|actions/taskscheduler.R|actions/withdrawal_pull.R|global/install_packages.R|ui/old_ui.R
+ignoredFiles: actions/hourly_pull.R|actions/taskscheduler.R|actions/withdrawal_pull.R|global/install_packages.R|misc/keep.csv|misc/nwis_ground_wells.R|misc/nwis_param_summary.R|misc/potomac_usgs_gages.csv|misc/usgs_params_1_keep.csv|qa/qa_pull_withdrawals_func.R
