@@ -1,5 +1,6 @@
-start.date <- "2017-09-18"
-end.date <- "2017-09-20"
+library(tidyverse)
+start.date <- "1900-01-01"
+end.date <- Sys.Date()   #"2017-09-20"
 #------------------------------------------------------------------------------
 format_date <- function(date) {
   new.date <- lubridate::as_date(date)
@@ -57,10 +58,10 @@ pull_drupal <- function(start.date, end.date) {
 }
 #-----------------------------------------------------------------------------------------------------------
 pull_withdrawals <- function(start.date, end.date = Sys.Date()) {
-  e.date <- end.date + lubridate::days(1)
+  e.date <- as.Date(end.date) + lubridate::days(1)
   final.df <- pull_drupal(start.date, e.date) %>% 
     
-    test <- final.df %>% 
+    #test <- final.df %>% 
     tidyr::gather(variable, value, -Today) %>% 
     dplyr::filter(!is.na(value)) %>% 
    # dplyr::bind_cols(stringr::str_split(.$variable, " ", simplify = TRUE) %>% data.frame()) %>% 
@@ -125,6 +126,7 @@ pull_withdrawals <- function(start.date, end.date = Sys.Date()) {
   return(final.df)
 }
 
+data.table::fwrite(final.df, "D:/ZSmith/Projects/COOP/lagk/lagk/data_ts/current/withdrawals/withdrawals_wma_daily_mgd_1990_2017.csv")
 
 
 
