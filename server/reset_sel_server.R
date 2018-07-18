@@ -62,6 +62,7 @@ observeEvent(input$view_clear_usgs, {
 #----------------------------------------------------------------------------
 observeEvent(input$view_reset_drupal, {
   updateCheckboxGroupInput(session, "view_unique_cbox", 
+                           choices = unique(retrieved()$unique_id),
                            selected = unique(retrieved()$unique_id))
 })
 #----------------------------------------------------------------------------
