@@ -1,11 +1,11 @@
 usgs_plots <- function(data.df, start.date, end.date,
-                      min.flow, max.flow = NA,
-                      usgs.gages.df = NULL,
-                      gages.checked,
-                      labels.vec = NULL, linesize.vec = NULL,
-                      linetype.vec = NULL, color.vec = NULL,
-                      x.class,
-                      x.lab = "Date Time", y.lab = "Flow (CFS)") {
+                       min.flow, max.flow = NA,
+                       usgs.gages.df = NULL,
+                       gages.checked,
+                       labels.vec = NULL, linesize.vec = NULL,
+                       linetype.vec = NULL, color.vec = NULL,
+                       x.class,
+                       x.lab = "Date Time", y.lab = "Flow (CFS)") {
   #--------------------------------------------------------------------------
   if (!is.null(usgs.gages.df)) {
     gages.checked <- usgs.gages.df %>% 
@@ -17,7 +17,7 @@ usgs_plots <- function(data.df, start.date, end.date,
            "No variables selected. Please check at least one checkbox.")
     )
   }
-
+  
   #--------------------------------------------------------------------------
   start.date <- as.Date(start.date)
   end.date <- as.Date(end.date)
@@ -34,7 +34,7 @@ usgs_plots <- function(data.df, start.date, end.date,
   #  if (max(hourly.df$date_time) < start.date - lubridate::days(3)) {
   #    start.date <- max(hourly.df$date_time) - lubridate::days(3)
   #  }
-
+  
   #----------------------------------------------------------------------------
   if (is.null(data.df)) {
     sub.df <- NULL
@@ -51,7 +51,7 @@ usgs_plots <- function(data.df, start.date, end.date,
     
   )
   #----------------------------------------------------------------------------
-  gage.vec <- unique(sub.df$site)
+  gage.vec <- unique(sub.df$description)
   if (is.null(labels.vec)) labels.vec <- gage.vec
   #----------------------------------------------------------------------------
   sub.df <- sub.df %>% 
@@ -61,8 +61,13 @@ usgs_plots <- function(data.df, start.date, end.date,
   final.plot <- ggplot(sub.df, aes(x = date_time, y = flow,
                                    color = site,
                                    linetype = site,
-                                   size = site)) + 
+                                   size = site
+                                   )) + 
     geom_line(na.rm = TRUE) +
+    geom_point(aes(text = paste("Site:", site,
+                                "<br>Description:", description,
+                                "<br>Date-Time:", date_time,
+                                "<br>Flow:", flow)), alpha = 0) +
     theme_minimal() +
     xlab(x.lab) +
     ylab(y.lab) +
@@ -98,17 +103,19 @@ usgs_plots <- function(data.df, start.date, end.date,
                                                    values = color.vec)
   } else {
     final.plot <- final.plot + scale_colour_discrete(name = "type",
-                                                   labels = labels.vec)
+                                                     labels = labels.vec)
   }
   #----------------------------------------------------------------------------
   if (is.na(min.flow)) min.flow <- min(sub.df$flow, na.rm = TRUE)
   if (is.na(max.flow)) max.flow <- max(sub.df$flow, na.rm = TRUE) + sqrt(max(sub.df$flow, na.rm = TRUE))
-
+  
   final.plot <- final.plot +
     coord_cartesian(xlim = c(as.POSIXct(start.date), as.POSIXct(end.date)),
                     ylim = c(min.flow, max.flow),
                     expand = FALSE)
   
+  final.plot <- plotly::ggplotly(final.plot, tooltip = "text")
+  final.plot$elementId <- NULL
   #----------------------------------------------------------------------------
   return(final.plot)
 }

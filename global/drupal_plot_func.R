@@ -53,6 +53,9 @@ drupal_plots <- function(data.df, start.date, end.date,
                                    linetype = unique_id,
                                    size = unique_id)) + 
     geom_line() +
+    geom_point(aes(text = paste("Unique ID:", unique_id,
+                                "<br>Date:", today,
+                                "<br>Value:", value)), alpha = 0) +
     theme_minimal() +
     xlab(x.lab) +
     ylab(y.lab) +
@@ -99,6 +102,8 @@ drupal_plots <- function(data.df, start.date, end.date,
                     ylim = c(min.flow, max.flow),
                     expand = FALSE)
   
+  final.plot <- plotly::ggplotly(final.plot, tooltip = "text")
+  final.plot$elementId <- NULL
   #----------------------------------------------------------------------------
   return(final.plot)
 }

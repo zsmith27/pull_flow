@@ -9,31 +9,61 @@ sites.df <- reactive({
       dplyr::arrange(code) 
   }
   
-  if (input$data_set == "drupal") {
-    site.df <- retrieved()#unique(retrieved()$unique_id)
-  }
-  
   return(site.df)
 })
 #------------------------------------------------------------------------------
+# output$view_unique_cbox <- renderUI({
+#   if (input$data_set == "usgs") {
+#   checkboxGroupInput(inputId = "view_gages_cbox",
+#                      label = "USGS Gage",
+#                      choices = unique(sites.df()$description),
+#                      selected = unique(sites.df()$description))
+#   }
+#   
+#   if (input$data_set == "drupal") {
+#     checkboxGroupInput(inputId = "view_unique_cbox",
+#                        label = "Drupal Unique ID",
+#                        choices = unique(retrieved()$unique_id),
+#                        selected = unique(retrieved()$unique_id))
+#   }
+#   
+# })
+
+output$view_gage_cbox <- renderUI({
+    checkboxGroupInput(inputId = "view_gages_cbox",
+                       label = "USGS Gage",
+                       choices = unique(sites.df()$description),
+                       selected = unique(sites.df()$description))
+
+})
+
 output$view_unique_cbox <- renderUI({
-  checkboxGroupInput(inputId = "view_gages_cbox",
-                     label = "USGS Gage",
-                     choices = sites.df()$description,
-                     selected = sites.df()$description)
+
+    checkboxGroupInput(inputId = "view_unique_cbox",
+                       label = "Drupal Unique ID",
+                       choices = unique(retrieved()$unique_id),
+                       selected = unique(retrieved()$unique_id))
+
 })
 #------------------------------------------------------------------------------
-
-
-
-output$plot <- renderPlot({
+sub.df <- reactive({
+  if (input$data_set == "usgs") {
+    retrieved() %>% 
+      filter(description %in% input$view_gages_cbox)
+  } else if (input$data_set == "drupal") {
+    retrieved() %>% 
+      filter(unique_id %in% input$view_unique_cbox)
+  }
+  
+})
+#------------------------------------------------------------------------------
+output$plot <- plotly::renderPlotly({
   start.date <- start.date()
   end.date <- end.date()
   #----------------------------------------------------------------------------
   validate(
     need(nrow(sub.df()) != 0,
          "No data available.")
-    
   )
   #----------------------------------------------------------------------------
   if (input$data_set == "usgs") {
@@ -77,15 +107,4 @@ output$plot <- renderPlot({
   
 }) # End output$plot
 
-#------------------------------------------------------------------------------
 
-sub.df <- reactive({
-  if (input$data_set == "usgs") {
-    retrieved() %>% 
-      filter(description %in% input$view_gages_cbox)
-  } else if (input$data_set == "drupal") {
-    retrieved() %>% 
-      filter(unique_id %in% input$view_unique_cbox)
-  }
-
-})

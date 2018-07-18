@@ -5,7 +5,7 @@ tabPanel("View",
                   source("ui/view_sidebar_ui.R", local = TRUE)$value
            ),
            column(8,
-                  plotOutput("plot", height = plot.height, width = plot.width)
+                  plotly::plotlyOutput("plot", height = plot.height, width = plot.width)
            )
          ) # End fluidRow
 ) # End tabPanel
