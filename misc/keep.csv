@@ -1,0 +1,152 @@
+parameter_cd,parameter_nm,keep
+60,"Discharge, cubic feet per second",N
+,,N
+4,"Stream width, feet",N
+10,"Temperature, water, degrees Celsius",Y
+20,"Temperature, air, degrees Celsius",N
+25,"Barometric pressure, millimeters of mercury",N
+28,"Agency analyzing sample, code",N
+61,"Discharge, instantaneous, cubic feet per second",N
+63,"Number of sampling points, count",N
+65,"Gage height, feet",N
+76,"Turbidity, water, unfiltered, nephelometric turbidity units",Y
+80,"Color, water, filtered, platinum cobalt units",N
+95,"Specific conductance, water, unfiltered, microsiemens per centimeter at 25 degrees Celsius",Y
+191,"Hydrogen ion, water, unfiltered, calculated, milligrams per liter",Y
+300,"Dissolved oxygen, water, unfiltered, milligrams per liter",Y
+301,"Dissolved oxygen, water, unfiltered, percent of saturation",N
+400,"pH, water, unfiltered, field, standard units",Y
+403,"pH, water, unfiltered, laboratory, standard units",N
+405,"Carbon dioxide, water, unfiltered, milligrams per liter",Y
+410,"Acid neutralizing capacity, water, unfiltered, fixed endpoint (pH 4.5) titration, field, milligrams per liter as calcium carbonate",Y
+435,"Acidity, water, unfiltered, milligrams per liter as calcium carbonate",Y
+440,"Bicarbonate, water, unfiltered, fixed endpoint (pH 4.5) titration, field, milligrams per liter",Y
+445,"Carbonate, water, unfiltered, fixed endpoint (pH 8.3) titration, field, milligrams per liter",Y
+452,"Carbonate, water, filtered, inflection-point titration method (incremental titration method), field, milligrams per liter",Y
+453,"Bicarbonate, water, filtered, inflection-point titration method (incremental titration method), field, milligrams per liter",Y
+530,"Suspended solids, water, unfiltered, milligrams per liter",Y
+600,"Total nitrogen [nitrate + nitrite + ammonia + organic-N], water, unfiltered, milligrams per liter",Y
+602,"Total nitrogen [nitrate + nitrite + ammonia + organic-N], water, filtered, milligrams per liter",Y
+605,"Organic nitrogen, water, unfiltered, milligrams per liter as nitrogen",Y
+607,"Organic nitrogen, water, filtered, milligrams per liter as nitrogen",Y
+608,"Ammonia (NH3 + NH4+), water, filtered, milligrams per liter as nitrogen",Y
+610,"Ammonia (NH3 + NH4+), water, unfiltered, milligrams per liter as nitrogen",Y
+613,"Nitrite, water, filtered, milligrams per liter as nitrogen",Y
+615,"Nitrite, water, unfiltered, milligrams per liter as nitrogen",Y
+618,"Nitrate, water, filtered, milligrams per liter as nitrogen",Y
+620,"Nitrate, water, unfiltered, milligrams per liter as nitrogen",Y
+623,"Ammonia plus organic nitrogen, water, filtered, milligrams per liter as nitrogen",Y
+624,"Ammonia plus organic nitrogen, suspended sediment, total, milligrams per liter as nitrogen",Y
+625,"Ammonia plus organic nitrogen, water, unfiltered, milligrams per liter as nitrogen",Y
+630,"Nitrate plus nitrite, water, unfiltered, milligrams per liter as nitrogen",Y
+631,"Nitrate plus nitrite, water, filtered, milligrams per liter as nitrogen",Y
+660,"Orthophosphate, water, filtered, milligrams per liter as PO4",Y
+665,"Phosphorus, water, unfiltered, milligrams per liter as phosphorus",Y
+666,"Phosphorus, water, filtered, milligrams per liter as phosphorus",Y
+671,"Orthophosphate, water, filtered, milligrams per liter as phosphorus",Y
+680,"Organic carbon, water, unfiltered, milligrams per liter",Y
+720,"Cyanide, water, unfiltered, milligrams per liter",Y
+900,"Hardness, water, milligrams per liter as calcium carbonate",Y
+902,"Noncarbonate hardness, water, unfiltered, field, milligrams per liter as calcium carbonate",Y
+915,"Calcium, water, filtered, milligrams per liter",Y
+925,"Magnesium, water, filtered, milligrams per liter",Y
+930,"Sodium, water, filtered, milligrams per liter",Y
+931,"Sodium adsorption ratio (SAR), water, number",Y
+932,"Sodium fraction of cations, water, percent in equivalents of major cations",Y
+933,"Sodium plus potassium, water, filtered, milligrams per liter as sodium",Y
+935,"Potassium, water, filtered, milligrams per liter",Y
+940,"Chloride, water, filtered, milligrams per liter",Y
+945,"Sulfate, water, filtered, milligrams per liter",Y
+950,"Fluoride, water, filtered, milligrams per liter",Y
+955,"Silica, water, filtered, milligrams per liter as SiO2",Y
+1000,"Arsenic, water, filtered, micrograms per liter",Y
+1001,"Arsenic, suspended sediment, total, micrograms per liter",Y
+1002,"Arsenic, water, unfiltered, micrograms per liter",Y
+1003,"Arsenic, bed sediment, total digestion, dry weight, milligrams per kilogram",Y
+1005,"Barium, water, filtered, micrograms per liter",Y
+1006,"Barium, suspended sediment, recoverable, micrograms per liter",Y
+1007,"Barium, water, unfiltered, recoverable, micrograms per liter",Y
+1010,"Beryllium, water, filtered, micrograms per liter",Y
+1020,"Boron, water, filtered, micrograms per liter",Y
+1021,"Boron, suspended sediment, recoverable, micrograms per liter",Y
+1022,"Boron, water, unfiltered, recoverable, micrograms per liter",Y
+1025,"Cadmium, water, filtered, micrograms per liter",Y
+1026,"Cadmium, suspended sediment, recoverable, micrograms per liter",Y
+1027,"Cadmium, water, unfiltered, micrograms per liter",Y
+1028,"Cadmium, bed sediment, recoverable, dry weight, milligrams per kilogram",Y
+1029,"Chromium, bed sediment, recoverable, dry weight, milligrams per kilogram",Y
+1030,"Chromium, water, filtered, micrograms per liter",Y
+1031,"Chromium, suspended sediment, recoverable, micrograms per liter",Y
+1034,"Chromium, water, unfiltered, recoverable, micrograms per liter",Y
+1035,"Cobalt, water, filtered, micrograms per liter",Y
+1038,"Cobalt, bed sediment, recoverable, dry weight, milligrams per kilogram",Y
+1040,"Copper, water, filtered, micrograms per liter",Y
+1041,"Copper, suspended sediment, recoverable, micrograms per liter",Y
+1042,"Copper, water, unfiltered, recoverable, micrograms per liter",Y
+1043,"Copper, bed sediment, recoverable, dry weight, milligrams per kilogram",Y
+1044,"Iron, suspended sediment, recoverable, micrograms per liter",Y
+1045,"Iron, water, unfiltered, recoverable, micrograms per liter",Y
+1046,"Iron, water, filtered, micrograms per liter",Y
+1049,"Lead, water, filtered, micrograms per liter",Y
+1050,"Lead, suspended sediment, recoverable, micrograms per liter",Y
+1051,"Lead, water, unfiltered, recoverable, micrograms per liter",Y
+1052,"Lead, bed sediment, recoverable, dry weight, milligrams per kilogram",Y
+1053,"Manganese, bed sediment, recoverable, dry weight, milligrams per kilogram",Y
+1054,"Manganese, suspended sediment, recoverable, micrograms per liter",Y
+1055,"Manganese, water, unfiltered, recoverable, micrograms per liter",Y
+1056,"Manganese, water, filtered, micrograms per liter",Y
+1060,"Molybdenum, water, filtered, micrograms per liter",Y
+1065,"Nickel, water, filtered, micrograms per liter",Y
+1066,"Nickel, suspended sediment, recoverable, micrograms per liter",Y
+1067,"Nickel, water, unfiltered, recoverable, micrograms per liter",Y
+1075,"Silver, water, filtered, micrograms per liter",Y
+1076,"Silver, suspended sediment, recoverable, micrograms per liter",Y
+1077,"Silver, water, unfiltered, recoverable, micrograms per liter",Y
+1080,"Strontium, water, filtered, micrograms per liter",Y
+1090,"Zinc, water, filtered, micrograms per liter",Y
+1091,"Zinc, suspended sediment, recoverable, micrograms per liter",Y
+1092,"Zinc, water, unfiltered, recoverable, micrograms per liter",Y
+1093,"Zinc, bed sediment, recoverable, dry weight, milligrams per kilogram",Y
+1105,"Aluminum, water, unfiltered, recoverable, micrograms per liter",Y
+1106,"Aluminum, water, filtered, micrograms per liter",Y
+1107,"Aluminum, suspended sediment, recoverable, micrograms per liter",Y
+1130,"Lithium, water, filtered, micrograms per liter",Y
+1145,"Selenium, water, filtered, micrograms per liter",Y
+1146,"Selenium, suspended sediment, total, micrograms per liter",Y
+1147,"Selenium, water, unfiltered, micrograms per liter",Y
+1148,"Selenium, bed sediment, total digestion, dry weight, milligrams per kilogram",Y
+1170,"Iron, bed sediment, total digestion, dry weight, milligrams per kilogram",Y
+30207,"Gage height, above datum, meters",N
+30209,"Discharge, instantaneous, cubic meters per second",N
+32730,"Phenolic compounds, water, unfiltered, recoverable, micrograms per liter",Y
+39086,"Alkalinity, water, filtered, inflection-point titration method (incremental titration method), field, milligrams per liter as calcium carbonate",Y
+50280,"Site visit purpose, code",N
+63675,"Turbidity, water, unfiltered, broad band light source (400-680 nm), detection angle 90 +-30 degrees to incident light, nephelometric turbidity units (NTU)",Y
+70300,"Dissolved solids dried at 180 degrees Celsius, water, filtered, milligrams per liter",Y
+70301,"Dissolved solids, water, filtered, sum of constituents, milligrams per liter",Y
+70302,"Dissolved solids, water, short tons per day",Y
+70303,"Dissolved solids, water, filtered, short tons per acre-foot",Y
+71825,"Acidity, water, unfiltered, heated, milligrams per liter as hydrogen ion",Y
+71845,"Ammonia (NH3 + NH4+), water, unfiltered, milligrams per liter as NH4",Y
+71846,"Ammonia (NH3 + NH4+), water, filtered, milligrams per liter as NH4",Y
+71851,"Nitrate, water, filtered, milligrams per liter as nitrate",Y
+71856,"Nitrite, water, filtered, milligrams per liter as nitrite",Y
+71886,"Phosphorus, water, unfiltered, milligrams per liter as PO4",Y
+71887,"Total nitrogen [nitrate + nitrite + ammonia + organic-N], water, unfiltered, milligrams per liter as nitrate",Y
+71890,"Mercury, water, filtered, micrograms per liter",Y
+71900,"Mercury, water, unfiltered, recoverable, micrograms per liter",Y
+71921,"Mercury, bed sediment, recoverable, dry weight, milligrams per kilogram",Y
+71999,"Sample purpose, code",N
+72105,"Sample location, distance upstream, feet",Y
+80154,"Suspended sediment concentration, milligrams per liter",Y
+80155,"Suspended sediment discharge, short tons per day",Y
+82031,"Coal, bed sediment, dry weight, grams per kilogram",Y
+82068,"Potassium-40, water, filtered, picocuries per liter",Y
+82398,"Sampling method, code",N
+84164,"Sampler type, code",N
+84182,"Bottle or bag sampler material (construction), code",N
+90095,"Specific conductance, water, unfiltered, laboratory, microsiemens per centimeter at 25 degrees Celsius",Y
+90410,"Acid neutralizing capacity, water, unfiltered, fixed endpoint (pH 4.5) titration, laboratory, milligrams per liter as calcium carbonate",Y
+95410,"Acid neutralizing capacity, water, unfiltered, fixed endpoint (pH 4.5) titration, laboratory, milligrams per liter as calcium carbonate",Y
+95902,"Noncarbonate hardness, water, milligrams per liter as calcium carbonate",Y
+99111,"Type of quality assurance data associated with sample, code",N

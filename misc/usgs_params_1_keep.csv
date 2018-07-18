@@ -1,0 +1,1901 @@
+parameter_cd,parameter_nm,keep
+60,"Discharge, cubic feet per second",N
+,,N
+4,"Stream width, feet",N
+10,"Temperature, water, degrees Celsius",Y
+20,"Temperature, air, degrees Celsius",N
+25,"Barometric pressure, millimeters of mercury",N
+28,"Agency analyzing sample, code",N
+61,"Discharge, instantaneous, cubic feet per second",N
+63,"Number of sampling points, count",N
+65,"Gage height, feet",N
+76,"Turbidity, water, unfiltered, nephelometric turbidity units",Y
+80,"Color, water, filtered, platinum cobalt units",Y
+95,"Specific conductance, water, unfiltered, microsiemens per centimeter at 25 degrees Celsius",Y
+191,"Hydrogen ion, water, unfiltered, calculated, milligrams per liter",Y
+300,"Dissolved oxygen, water, unfiltered, milligrams per liter",Y
+301,"Dissolved oxygen, water, unfiltered, percent of saturation",Y
+400,"pH, water, unfiltered, field, standard units",Y
+403,"pH, water, unfiltered, laboratory, standard units",Y
+405,"Carbon dioxide, water, unfiltered, milligrams per liter",Y
+410,"Acid neutralizing capacity, water, unfiltered, fixed endpoint (pH 4.5) titration, field, milligrams per liter as calcium carbonate",Y
+435,"Acidity, water, unfiltered, milligrams per liter as calcium carbonate",Y
+440,"Bicarbonate, water, unfiltered, fixed endpoint (pH 4.5) titration, field, milligrams per liter",Y
+445,"Carbonate, water, unfiltered, fixed endpoint (pH 8.3) titration, field, milligrams per liter",Y
+452,"Carbonate, water, filtered, inflection-point titration method (incremental titration method), field, milligrams per liter",Y
+453,"Bicarbonate, water, filtered, inflection-point titration method (incremental titration method), field, milligrams per liter",Y
+530,"Suspended solids, water, unfiltered, milligrams per liter",Y
+600,"Total nitrogen [nitrate + nitrite + ammonia + organic-N], water, unfiltered, milligrams per liter",Y
+602,"Total nitrogen [nitrate + nitrite + ammonia + organic-N], water, filtered, milligrams per liter",Y
+605,"Organic nitrogen, water, unfiltered, milligrams per liter as nitrogen",Y
+607,"Organic nitrogen, water, filtered, milligrams per liter as nitrogen",Y
+608,"Ammonia (NH3 + NH4+), water, filtered, milligrams per liter as nitrogen",Y
+610,"Ammonia (NH3 + NH4+), water, unfiltered, milligrams per liter as nitrogen",Y
+613,"Nitrite, water, filtered, milligrams per liter as nitrogen",Y
+615,"Nitrite, water, unfiltered, milligrams per liter as nitrogen",Y
+618,"Nitrate, water, filtered, milligrams per liter as nitrogen",Y
+620,"Nitrate, water, unfiltered, milligrams per liter as nitrogen",Y
+623,"Ammonia plus organic nitrogen, water, filtered, milligrams per liter as nitrogen",Y
+624,"Ammonia plus organic nitrogen, suspended sediment, total, milligrams per liter as nitrogen",Y
+625,"Ammonia plus organic nitrogen, water, unfiltered, milligrams per liter as nitrogen",Y
+630,"Nitrate plus nitrite, water, unfiltered, milligrams per liter as nitrogen",Y
+631,"Nitrate plus nitrite, water, filtered, milligrams per liter as nitrogen",Y
+660,"Orthophosphate, water, filtered, milligrams per liter as PO4",Y
+665,"Phosphorus, water, unfiltered, milligrams per liter as phosphorus",Y
+666,"Phosphorus, water, filtered, milligrams per liter as phosphorus",Y
+671,"Orthophosphate, water, filtered, milligrams per liter as phosphorus",Y
+680,"Organic carbon, water, unfiltered, milligrams per liter",Y
+720,"Cyanide, water, unfiltered, milligrams per liter",Y
+900,"Hardness, water, milligrams per liter as calcium carbonate",Y
+902,"Noncarbonate hardness, water, unfiltered, field, milligrams per liter as calcium carbonate",Y
+915,"Calcium, water, filtered, milligrams per liter",Y
+925,"Magnesium, water, filtered, milligrams per liter",Y
+930,"Sodium, water, filtered, milligrams per liter",Y
+931,"Sodium adsorption ratio (SAR), water, number",Y
+932,"Sodium fraction of cations, water, percent in equivalents of major cations",Y
+933,"Sodium plus potassium, water, filtered, milligrams per liter as sodium",Y
+935,"Potassium, water, filtered, milligrams per liter",Y
+940,"Chloride, water, filtered, milligrams per liter",Y
+945,"Sulfate, water, filtered, milligrams per liter",Y
+950,"Fluoride, water, filtered, milligrams per liter",Y
+955,"Silica, water, filtered, milligrams per liter as SiO2",Y
+1000,"Arsenic, water, filtered, micrograms per liter",Y
+1001,"Arsenic, suspended sediment, total, micrograms per liter",Y
+1002,"Arsenic, water, unfiltered, micrograms per liter",Y
+1003,"Arsenic, bed sediment, total digestion, dry weight, milligrams per kilogram",Y
+1005,"Barium, water, filtered, micrograms per liter",Y
+1006,"Barium, suspended sediment, recoverable, micrograms per liter",Y
+1007,"Barium, water, unfiltered, recoverable, micrograms per liter",Y
+1010,"Beryllium, water, filtered, micrograms per liter",Y
+1020,"Boron, water, filtered, micrograms per liter",Y
+1021,"Boron, suspended sediment, recoverable, micrograms per liter",Y
+1022,"Boron, water, unfiltered, recoverable, micrograms per liter",Y
+1025,"Cadmium, water, filtered, micrograms per liter",Y
+1026,"Cadmium, suspended sediment, recoverable, micrograms per liter",Y
+1027,"Cadmium, water, unfiltered, micrograms per liter",Y
+1028,"Cadmium, bed sediment, recoverable, dry weight, milligrams per kilogram",Y
+1029,"Chromium, bed sediment, recoverable, dry weight, milligrams per kilogram",Y
+1030,"Chromium, water, filtered, micrograms per liter",Y
+1031,"Chromium, suspended sediment, recoverable, micrograms per liter",Y
+1034,"Chromium, water, unfiltered, recoverable, micrograms per liter",Y
+1035,"Cobalt, water, filtered, micrograms per liter",Y
+1038,"Cobalt, bed sediment, recoverable, dry weight, milligrams per kilogram",Y
+1040,"Copper, water, filtered, micrograms per liter",Y
+1041,"Copper, suspended sediment, recoverable, micrograms per liter",Y
+1042,"Copper, water, unfiltered, recoverable, micrograms per liter",Y
+1043,"Copper, bed sediment, recoverable, dry weight, milligrams per kilogram",Y
+1044,"Iron, suspended sediment, recoverable, micrograms per liter",Y
+1045,"Iron, water, unfiltered, recoverable, micrograms per liter",Y
+1046,"Iron, water, filtered, micrograms per liter",Y
+1049,"Lead, water, filtered, micrograms per liter",Y
+1050,"Lead, suspended sediment, recoverable, micrograms per liter",Y
+1051,"Lead, water, unfiltered, recoverable, micrograms per liter",Y
+1052,"Lead, bed sediment, recoverable, dry weight, milligrams per kilogram",Y
+1053,"Manganese, bed sediment, recoverable, dry weight, milligrams per kilogram",Y
+1054,"Manganese, suspended sediment, recoverable, micrograms per liter",Y
+1055,"Manganese, water, unfiltered, recoverable, micrograms per liter",Y
+1056,"Manganese, water, filtered, micrograms per liter",Y
+1060,"Molybdenum, water, filtered, micrograms per liter",Y
+1065,"Nickel, water, filtered, micrograms per liter",Y
+1066,"Nickel, suspended sediment, recoverable, micrograms per liter",Y
+1067,"Nickel, water, unfiltered, recoverable, micrograms per liter",Y
+1075,"Silver, water, filtered, micrograms per liter",Y
+1076,"Silver, suspended sediment, recoverable, micrograms per liter",Y
+1077,"Silver, water, unfiltered, recoverable, micrograms per liter",Y
+1080,"Strontium, water, filtered, micrograms per liter",Y
+1090,"Zinc, water, filtered, micrograms per liter",Y
+1091,"Zinc, suspended sediment, recoverable, micrograms per liter",Y
+1092,"Zinc, water, unfiltered, recoverable, micrograms per liter",Y
+1093,"Zinc, bed sediment, recoverable, dry weight, milligrams per kilogram",Y
+1105,"Aluminum, water, unfiltered, recoverable, micrograms per liter",Y
+1106,"Aluminum, water, filtered, micrograms per liter",Y
+1107,"Aluminum, suspended sediment, recoverable, micrograms per liter",Y
+1130,"Lithium, water, filtered, micrograms per liter",Y
+1145,"Selenium, water, filtered, micrograms per liter",Y
+1146,"Selenium, suspended sediment, total, micrograms per liter",Y
+1147,"Selenium, water, unfiltered, micrograms per liter",Y
+1148,"Selenium, bed sediment, total digestion, dry weight, milligrams per kilogram",Y
+1170,"Iron, bed sediment, total digestion, dry weight, milligrams per kilogram",Y
+30207,"Gage height, above datum, meters",N
+30209,"Discharge, instantaneous, cubic meters per second",N
+32730,"Phenolic compounds, water, unfiltered, recoverable, micrograms per liter",Y
+39086,"Alkalinity, water, filtered, inflection-point titration method (incremental titration method), field, milligrams per liter as calcium carbonate",Y
+50280,"Site visit purpose, code",N
+63675,"Turbidity, water, unfiltered, broad band light source (400-680 nm), detection angle 90 +-30 degrees to incident light, nephelometric turbidity units (NTU)",Y
+70300,"Dissolved solids dried at 180 degrees Celsius, water, filtered, milligrams per liter",Y
+70301,"Dissolved solids, water, filtered, sum of constituents, milligrams per liter",Y
+70302,"Dissolved solids, water, short tons per day",Y
+70303,"Dissolved solids, water, filtered, short tons per acre-foot",Y
+71825,"Acidity, water, unfiltered, heated, milligrams per liter as hydrogen ion",Y
+71845,"Ammonia (NH3 + NH4+), water, unfiltered, milligrams per liter as NH4",Y
+71846,"Ammonia (NH3 + NH4+), water, filtered, milligrams per liter as NH4",Y
+71851,"Nitrate, water, filtered, milligrams per liter as nitrate",Y
+71856,"Nitrite, water, filtered, milligrams per liter as nitrite",Y
+71886,"Phosphorus, water, unfiltered, milligrams per liter as PO4",Y
+71887,"Total nitrogen [nitrate + nitrite + ammonia + organic-N], water, unfiltered, milligrams per liter as nitrate",Y
+71890,"Mercury, water, filtered, micrograms per liter",Y
+71900,"Mercury, water, unfiltered, recoverable, micrograms per liter",Y
+71921,"Mercury, bed sediment, recoverable, dry weight, milligrams per kilogram",Y
+71999,"Sample purpose, code",N
+72105,"Sample location, distance upstream, feet",N
+80154,"Suspended sediment concentration, milligrams per liter",Y
+80155,"Suspended sediment discharge, short tons per day",Y
+82031,"Coal, bed sediment, dry weight, grams per kilogram",Y
+82068,"Potassium-40, water, filtered, picocuries per liter",Y
+82398,"Sampling method, code",N
+84164,"Sampler type, code",N
+84182,"Bottle or bag sampler material (construction), code",N
+90095,"Specific conductance, water, unfiltered, laboratory, microsiemens per centimeter at 25 degrees Celsius",Y
+90410,"Acid neutralizing capacity, water, unfiltered, fixed endpoint (pH 4.5) titration, laboratory, milligrams per liter as calcium carbonate",Y
+95410,"Acid neutralizing capacity, water, unfiltered, fixed endpoint (pH 4.5) titration, laboratory, milligrams per liter as calcium carbonate",Y
+95902,"Noncarbonate hardness, water, milligrams per liter as calcium carbonate",Y
+99111,"Type of quality assurance data associated with sample, code",N
+431,"Acid neutralizing capacity, water, unfiltered, milligrams per liter as calcium carbonate",Y
+693,"Carbon [inorganic plus organic], bed sediment, total, dry weight, grams per kilogram",Y
+94,"Specific conductance, water, unfiltered, field, microsiemens per centimeter at 25 degrees Celsius",Y
+904,"Noncarbonate hardness, water, filtered, field, milligrams per liter as calcium carbonate",Y
+1057,"Thallium, water, filtered, micrograms per liter",Y
+1085,"Vanadium, water, filtered, micrograms per liter",Y
+1095,"Antimony, water, filtered, micrograms per liter",Y
+22703,"Uranium (natural), water, filtered, micrograms per liter",Y
+30208,"Discharge, cubic meters per second",N
+34790,"Aluminum, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, percent",Y
+34795,"Antimony, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34800,"Arsenic, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34805,"Barium, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34810,"Beryllium, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34816,"Bismuth, bed sediment smaller than 177 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34825,"Cadmium, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34830,"Calcium, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, percent",Y
+34835,"Cerium, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34840,"Chromium, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34845,"Cobalt, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34850,"Copper, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34855,"Europium, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34860,"Gallium, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34870,"Gold, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34875,"Holmium, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34880,"Iron, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, percent",Y
+34885,"Lanthanum, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34890,"Lead, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34895,"Lithium, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34900,"Magnesium, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, percent",Y
+34905,"Manganese, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34910,"Mercury, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34915,"Molybdenum, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34920,"Neodymium, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34925,"Nickel, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34930,"Niobium, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34935,"Phosphorus, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, percent",Y
+34940,"Potassium, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, percent",Y
+34945,"Scandium, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34950,"Selenium, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34955,"Silver, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34960,"Sodium, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, percent",Y
+34965,"Strontium, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34970,"Sulfur, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, percent",Y
+34975,"Tantalum, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34980,"Thorium, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+34985,"Tin, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+35000,"Uranium, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+35005,"Vanadium, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+35010,"Yttrium, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+35015,"Ytterbium, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+35020,"Zinc, bed sediment smaller than 62.5 microns, wet sieved, field, total digestion, dry weight, milligrams per kilogram",Y
+49266,"Organic carbon, bed sediment smaller than 62.5 microns, wet sieved (native water), field, recoverable, dry weight, percent",Y
+49267,"Carbon [inorganic plus organic], bed sediment smaller than 62.5 microns, wet sieved (native water), field, recoverable, dry weight, percent",Y
+49269,"Inorganic carbon, bed sediment smaller than 62.5 microns, wet sieved (native water), field, recoverable, dry weight, percent",Y
+49270,"Inorganic carbon, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, grams per kilogram",Y
+49271,"Organic carbon, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, grams per kilogram",Y
+49272,"Carbon [inorganic plus organic], bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, grams per kilogram",Y
+49278,"p-Terphenyl-d14, surrogate, bed sediment smaller than 2 millimeters, wet sieved (native water), field, percent recovery",Y
+49279,"2-Fluorobiphenyl, surrogate, bed sediment smaller than 2 millimeters, wet sieved (native water), field, percent recovery",Y
+49280,"Nitrobenzene-d5, surrogate, bed sediment smaller than 2 millimeters, wet sieved (native water), field, percent recovery",Y
+49316,"cis-Nonachlor, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49317,"trans-Nonachlor, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49318,"Oxychlordane, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49319,"Aldrin, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49320,"cis-Chlordane, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49321,"trans-Chlordane, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49322,"Chloroneb, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49324,"DCPA, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49325,"o,p'-DDD, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49328,"p,p'-DDE, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49329,"o,p'-DDT, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49330,"p,p'-DDT, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49331,"Dieldrin, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49335,"Endrin, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49338,"alpha-HCH, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49341,"Heptachlor, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49342,"Heptachlor epoxide, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49343,"Hexachlorobenzene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49344,"Isodrin, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49345,"Lindane, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49346,"p,p'-Methoxychlor, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49347,"o,p'-Methoxychlor, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49348,"Mirex, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49349,"cis-Permethrin, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49350,"trans-Permethrin, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49351,"Toxaphene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49387,"Pyrene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49388,"1-Methylpyrene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49389,"Benzo[a]pyrene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49390,"Indeno[1,2,3-cd]pyrene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49393,"Phenanthridine, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49397,"Benzo[k]fluoranthene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49398,"1-Methyl-9H-fluorene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49399,"9H-Fluorene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49401,"Bis(2-chloroethoxy)methane, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49402,"Naphthalene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49404,"1,6-Dimethylnaphthalene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49405,"2,3,6-Trimethylnaphthalene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49406,"2,6-Dimethylnaphthalene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49409,"Phenanthrene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49413,"Phenol, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49423,"3-Nitrophenol, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49426,"Bis(2-ethylhexyl) phthalate, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49428,"Acenaphthylene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49429,"Acenaphthene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49430,"Acridine, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49434,"Anthracene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49435,"2-Methylanthracene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49437,"9,10-Anthraquinone, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49442,"1,4-Dichlorobenzene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49443,"Azobenzene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49449,"Carbazole, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49450,"Chrysene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49451,"p-Cresol, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49452,"Dibenzothiophene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49458,"Benzo[b]fluoranthene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49459,"PCBs, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49460,"Pentachloroanisole, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49466,"Fluoranthene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+70331,"Suspended sediment, sieve diameter, percent smaller than 0.0625 millimeters",Y
+72104,"Sample location, distance downstream, feet",N
+80157,"Bed sediment, fall diameter (deionized water), percent smaller than 0.004 millimeters",N
+80164,"Bed sediment, sieve diameter, percent smaller than 0.0625 millimeters",N
+90852,"DDT plus degradates, bed sediment smaller than 2 millimeters, wet sieved (native water), recoverable, minimum summation, dry weight, micrograms per kilogram",Y
+90864,"Chlordane plus degradates, bed sediment, recoverable, maximum summation, dry weight, micrograms per kilogram",Y
+99159,"Nitric acid NWIS lot number, 7.5-7.7 N, 2 mL, National Field Supply Service (NFSS) stock number Q436FLD",Y
+99206,"NWIS lot number, capsule filter, 0.45 micron",N
+8,Sample accounting number,N
+30,"Incident solar radiation intensity, calories per square centimeter per day",N
+41,"Weather, World Meteorological Organization code",N
+694,"Carbon [inorganic plus organic], suspended sediment, total, milligrams per liter",Y
+1300,"Oil and grease, severity, code",N
+1305,"Suds or foam, severity, code",N
+1320,"Floating garbage, severity, code",N
+1325,"Floating algae mats, severity, code",N
+1330,"Odor, atmospheric, severity, code",N
+1340,"Dead fish, severity, code",N
+1345,"Floating debris, severity, code",N
+1350,"Turbidity, severity, code",N
+49570,"Particulate nitrogen, suspended in water, milligrams per liter",Y
+50015,"Transit rate, sampler, feet per second",N
+62854,"Total nitrogen [nitrate + nitrite + ammonia + organic-N], water, filtered, analytically determined, milligrams per liter",Y
+63680,"Turbidity, water, unfiltered, monochrome near infra-red LED light, 780-900 nm, detection angle 90 +-2.5 degrees, formazin nephelometric units (FNU)",Y
+72053,Number of days since last precipitation event,N
+72219,"Sampler nozzle material, code",N
+72220,"Sampler nozzle diameter, code",N
+81904,"Velocity at point in stream, feet per second",N
+84171,"Sample splitter type, field, code",N
+99105,"Type of replicate, code",N
+99156,"Sulfuric acid NWIS lot number, 4.5 N (1:7), 1 mL, National Field Supply Service (NFSS) stock number Q438FLD",N
+3,"Sampling depth, feet",N
+603,"Total nitrogen [nitrate + nitrite + ammonia + organic-N], bed sediment, total, dry weight, milligrams per kilogram",Y
+611,"Ammonia (NH3 + NH4+), bed sediment, total, dry weight, milligrams per kilogram as nitrogen",Y
+621,"Nitrate, bed sediment, total, dry weight, milligrams per kilogram as nitrogen",Y
+626,"Ammonia plus organic nitrogen, bed sediment, total, dry weight, milligrams per kilogram as nitrogen",Y
+633,"Nitrate plus nitrite, bed sediment, total, dry weight, milligrams per kilogram as nitrogen",Y
+650,"Phosphate, water, unfiltered, milligrams per liter as PO4",Y
+668,"Phosphorus, bed sediment, total, dry weight, milligrams per kilogram as phosphorus",Y
+686,"Inorganic carbon, bed sediment, total, dry weight, grams per kilogram",Y
+687,"Organic carbon, bed sediment, total, dry weight, grams per kilogram",Y
+1037,"Cobalt, water, unfiltered, recoverable, micrograms per liter",Y
+1068,"Nickel, bed sediment, recoverable, dry weight, milligrams per kilogram",Y
+31616,"Fecal coliforms, M-FC MF (0.45 micron) method, water, colony forming units per 100 milliliters",Y
+31679,"Fecal streptococci, m-Enterococcus MF method, water, colonies per 100 milliliters",Y
+39250,"Polychlorinated naphthalenes, water, unfiltered, recoverable, micrograms per liter",Y
+39330,"Aldrin, water, unfiltered, recoverable, micrograms per liter",Y
+39333,"Aldrin, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39340,"Lindane, water, unfiltered, recoverable, micrograms per liter",Y
+39343,"Lindane, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39350,"Chlordane (technical), water, unfiltered, recoverable, micrograms per liter",Y
+39351,"Chlordane (technical), bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39360,"p,p'-DDD, water, unfiltered, recoverable, micrograms per liter",Y
+39363,"p,p'-DDD, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39365,"p,p'-DDE, water, unfiltered, recoverable, micrograms per liter",Y
+39368,"p,p'-DDE, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39370,"p,p'-DDT, water, unfiltered, recoverable, micrograms per liter",Y
+39373,"p,p'-DDT, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39380,"Dieldrin, water, unfiltered, recoverable, micrograms per liter",Y
+39383,"Dieldrin, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39390,"Endrin, water, unfiltered, recoverable, micrograms per liter",Y
+39393,"Endrin, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39398,"Ethion, water, unfiltered, recoverable, micrograms per liter",Y
+39399,"Ethion, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39400,"Toxaphene, water, unfiltered, recoverable, micrograms per liter",Y
+39403,"Toxaphene, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39410,"Heptachlor, water, unfiltered, recoverable, micrograms per liter",Y
+39413,"Heptachlor, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39420,"Heptachlor epoxide, water, unfiltered, recoverable, micrograms per liter",Y
+39423,"Heptachlor epoxide, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39480,"p,p'-Methoxychlor, water, unfiltered, recoverable, micrograms per liter",Y
+39516,"PCBs, water, unfiltered, recoverable, micrograms per liter",Y
+39519,"PCBs, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39530,"Malathion, water, unfiltered, recoverable, micrograms per liter",Y
+39531,"Malathion, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39540,"Parathion, water, unfiltered, recoverable, micrograms per liter",Y
+39541,"Parathion, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39570,"Diazinon, water, unfiltered, recoverable, micrograms per liter",Y
+39571,"Diazinon, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39600,"Methyl parathion, water, unfiltered, recoverable, micrograms per liter",Y
+39601,"Methyl parathion, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39730,"2,4-D, water, unfiltered, recoverable, micrograms per liter",Y
+39731,"2,4-D, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39740,"2,4,5-T, water, unfiltered, recoverable, micrograms per liter",Y
+39741,"2,4,5-T, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39760,"Silvex, water, unfiltered, recoverable, micrograms per liter",Y
+39761,"Silvex, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39786,"Carbophenothion, water, unfiltered, recoverable, micrograms per liter",Y
+39787,"Carbophenothion, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39790,"Methyl trithion, water, unfiltered, recoverable, micrograms per liter",Y
+39791,"Methyl trithion, bed sediment, dry weight, recoverable, dry weight, micrograms per kilogram",Y
+70507,"Orthophosphate, water, unfiltered, milligrams per liter as phosphorus",Y
+70,"Turbidity, water, unfiltered, Jackson Turbidity Units",Y
+85,"Odor at room temperature, threshold odor number",N
+310,"Biochemical oxygen demand, water, unfiltered, 5 days at 20 degrees Celsius, milligrams per liter",Y
+335,"Chemical oxygen demand, low level, water, unfiltered, milligrams per liter",Y
+515,"Dissolved solids dried at 105 degrees Celsius, water, filtered, milligrams per liter",Y
+1032,"Chromium(VI), water, filtered, micrograms per liter as Cr",Y
+1501,"Alpha radioactivity, water, unfiltered, picocuries per liter",Y
+1515,"Gross alpha radioactivity, water, filtered, natural uranium curve, picocuries per liter",Y
+1516,"Gross alpha radioactivity, suspended sediment, natural uranium curve, picocuries per liter",Y
+3501,"Beta radioactivity, water, unfiltered, picocuries per liter",Y
+3515,"Gross beta radioactivity, water, filtered, Cs-137 curve, picocuries per liter",Y
+3516,"Gross beta radioactivity, suspended sediment, Cs-137 curve, picocuries per liter",Y
+38260,"Methylene blue active substances, water, unfiltered, recoverable, milligrams per liter",Y
+70299,"Suspended solids dried at 110 degrees Celsius, water, unfiltered, milligrams per liter",Y
+80030,"Gross alpha radioactivity, water, filtered, natural uranium curve, micrograms per liter",Y
+80040,"Gross alpha radioactivity, suspended sediment, natural uranium curve, micrograms per liter",Y
+80050,"Gross beta radioactivity, water, filtered, Sr-90/Y-90 curve, picocuries per liter",Y
+80060,"Gross beta radioactivity, suspended sediment, Sr-90/Y-90 curve, picocuries per liter",Y
+49381,"Di-n-butyl phthalate, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49456,"Bis(2-chloroethyl) ether, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49468,"Benzo[c]cinnoline, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+71885,"Iron, water, unfiltered, micrograms per liter",Y
+49,"Surface area, square miles",N
+70332,"Suspended sediment, sieve diameter, percent smaller than 0.125 millimeters",Y
+70333,"Suspended sediment, sieve diameter, percent smaller than 0.25 millimeters",Y
+70334,"Suspended sediment, sieve diameter, percent smaller than 0.5 millimeters",Y
+70337,"Suspended sediment, fall diameter (deionized water), percent smaller than 0.002 millimeters",Y
+70338,"Suspended sediment, fall diameter (deionized water), percent smaller than 0.004 millimeters",Y
+70339,"Suspended sediment, fall diameter (deionized water), percent smaller than 0.008 millimeters",Y
+70340,"Suspended sediment, fall diameter (deionized water), percent smaller than 0.016 millimeters",Y
+70341,"Suspended sediment, fall diameter (deionized water), percent smaller than 0.031 millimeters",Y
+72000,"Altitude of land surface, feet",N
+4024,"Propachlor, water, filtered, recoverable, micrograms per liter",Y
+4028,"Butylate, water, filtered, recoverable, micrograms per liter",Y
+4035,"Simazine, water, filtered, recoverable, micrograms per liter",Y
+4037,"Prometon, water, filtered, recoverable, micrograms per liter",Y
+4040,"2-Chloro-4-isopropylamino-6-amino-s-triazine, water, filtered, recoverable, micrograms per liter",Y
+4041,"Cyanazine, water, filtered, recoverable, micrograms per liter",Y
+4095,"Fonofos, water, filtered, recoverable, micrograms per liter",Y
+34253,"alpha-HCH, water, filtered, recoverable, micrograms per liter",Y
+34653,"p,p'-DDE, water, filtered, recoverable, micrograms per liter",Y
+38933,"Chlorpyrifos, water, filtered, recoverable, micrograms per liter",Y
+39341,"Lindane, water, filtered, recoverable, micrograms per liter",Y
+39381,"Dieldrin, water, filtered, recoverable, micrograms per liter",Y
+39415,"Metolachlor, water, filtered, recoverable, micrograms per liter",Y
+39532,"Malathion, water, filtered, recoverable, micrograms per liter",Y
+39542,"Parathion, water, filtered, recoverable, micrograms per liter",Y
+39572,"Diazinon, water, filtered, recoverable, micrograms per liter",Y
+39632,"Atrazine, water, filtered, recoverable, micrograms per liter",Y
+46342,"Alachlor, water, filtered, recoverable, micrograms per liter",Y
+49395,"2,4-Dinitrotoluene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49403,"1,2-Dimethylnaphthalene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49408,"Benzo[ghi]perylene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49454,"4-Bromophenyl phenyl ether, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49461,"Dibenzo[a,h]anthracene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49948,"2-Ethylnaphthalene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+82630,"Metribuzin, water, filtered, recoverable, micrograms per liter",Y
+82660,"2,6-Diethylaniline, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+82661,"Trifluralin, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+82663,"Ethalfluralin, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+82664,"Phorate, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+82665,"Terbacil, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+82666,"Linuron, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+82667,"Methyl parathion, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+82668,"EPTC, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+82669,"Pebulate, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+82670,"Tebuthiuron, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+82671,"Molinate, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+82672,"Ethoprop, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+82673,"Benfluralin, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+82674,"Carbofuran, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+82675,"Terbufos, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+82676,"Propyzamide, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+82677,"Disulfoton, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+82678,"Triallate, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+82679,"Propanil, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+82680,"Carbaryl, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+82681,"Thiobencarb, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+82682,"DCPA, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+82683,"Pendimethalin, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+82684,"Napropamide, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+82685,"Propargite, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+82686,"Azinphos-methyl, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+82687,"cis-Permethrin, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+91063,"Diazinon-d10, surrogate, water, filtered (0.7 micron glass fiber filter), percent recovery",Y
+91064,"Terbuthylazine, surrogate, water, filtered (0.7 micron glass fiber filter), percent recovery",Y
+91065,"alpha-HCH-d6, surrogate, water, filtered (0.7 micron glass fiber filter), percent recovery",Y
+99856,"Sample volume, NWQL schedule 2001, milliliters",Y
+45,"Precipitation, total, inches",N
+572,"Biomass, periphyton, ash weight, grams per square meter",Y
+573,"Biomass, periphyton, dry weight, grams per square meter",Y
+681,"Organic carbon, water, filtered, milligrams per liter",Y
+689,"Organic carbon, suspended sediment, total, milligrams per liter",Y
+49264,"PCB congener 14, surrogate, biota, whole organism, percent recovery",Y
+49289,"Lipids, biota, whole organism, wet weight, recoverable, percent",Y
+49353,"Aldrin, biota, whole organism, recoverable, wet weight, micrograms per kilogram",Y
+49354,"PCBs, biota, whole organism, recoverable, wet weight, micrograms per kilogram",Y
+49356,"Pentachloroanisole, biota, whole organism, recoverable, wet weight, micrograms per kilogram",Y
+49357,"Oxychlordane, biota, whole organism, recoverable, wet weight, micrograms per kilogram",Y
+49358,"trans-Nonachlor, biota, whole organism, recoverable, wet weight, micrograms per kilogram",Y
+49359,"cis-Nonachlor, biota, whole organism, recoverable, wet weight, micrograms per kilogram",Y
+49360,"Mirex, biota, whole organism, recoverable, wet weight, micrograms per kilogram",Y
+49361,"p,p'-Methoxychlor, biota, whole organism, recoverable, wet weight, micrograms per kilogram",Y
+49362,"o,p'-Methoxychlor, biota, whole organism, recoverable, wet weight, micrograms per kilogram",Y
+49363,"Lindane, biota, whole organism, recoverable, wet weight, micrograms per kilogram",Y
+49364,"delta-HCH, biota, whole organism, recoverable, wet weight, micrograms per kilogram",Y
+49365,"beta-HCH, biota, whole organism, recoverable, wet weight, micrograms per kilogram",Y
+49366,"alpha-HCH, biota, whole organism, recoverable, wet weight, micrograms per kilogram",Y
+49367,"Hexachlorobenzene, biota, whole organism, recoverable, wet weight, micrograms per kilogram",Y
+49368,"Heptachlor epoxide, biota, whole organism, recoverable, wet weight, micrograms per kilogram",Y
+49369,"Heptachlor, biota, whole organism, recoverable, wet weight, micrograms per kilogram",Y
+49370,"Endrin, biota, whole organism, recoverable, wet weight, micrograms per kilogram",Y
+49371,"Dieldrin, biota, whole organism, recoverable, wet weight, micrograms per kilogram",Y
+49372,"p,p'-DDE, biota, whole organism, recoverable, wet weight, micrograms per kilogram",Y
+49373,"o,p'-DDE, biota, whole organism, recoverable, wet weight, micrograms per kilogram",Y
+49374,"o,p'-DDD, biota, whole organism, recoverable, wet weight, micrograms per kilogram",Y
+49375,"p,p'-DDD, biota, whole organism, recoverable, wet weight, micrograms per kilogram",Y
+49376,"p,p'-DDT, biota, whole organism, recoverable, wet weight, micrograms per kilogram",Y
+49377,"o,p'-DDT, biota, whole organism, recoverable, wet weight, micrograms per kilogram",Y
+49378,"DCPA, biota, whole organism, recoverable, wet weight, micrograms per kilogram",Y
+49379,"trans-Chlordane, biota, whole organism, recoverable, wet weight, micrograms per kilogram",Y
+49380,"cis-Chlordane, biota, whole organism, recoverable, wet weight, micrograms per kilogram",Y
+49954,"Biomass, periphyton, ash free dry mass, grams per square meter",Y
+70326,"Suspended sediment, fall diameter (native water), percent smaller than 0.002 millimeters",Y
+70327,"Suspended sediment, fall diameter (native water), percent smaller than 0.004 millimeters",Y
+70328,"Suspended sediment, fall diameter (native water), percent smaller than 0.008 millimeters",Y
+70329,"Suspended sediment, fall diameter (native water), percent smaller than 0.016 millimeters",Y
+70330,"Suspended sediment, fall diameter (native water), percent smaller than 0.031 millimeters",Y
+70335,"Suspended sediment, sieve diameter, percent smaller than 1 millimeters",Y
+70336,"Suspended sediment, sieve diameter, percent smaller than 2 millimeters",Y
+70342,"Suspended sediment, fall diameter (deionized water), percent smaller than 0.0625 millimeters",Y
+70343,"Suspended sediment, fall diameter (deionized water), percent smaller than 0.125 millimeters",Y
+70344,"Suspended sediment, fall diameter (deionized water), percent smaller than 0.25 millimeters",Y
+70345,"Suspended sediment, fall diameter (deionized water), percent smaller than 0.5 millimeters",Y
+70346,"Suspended sediment, fall diameter (deionized water), percent smaller than 1 millimeter",Y
+70957,"Chlorophyll a, periphyton, chromatographic-fluorometric method, milligrams per square meter",Y
+70958,"Chlorophyll b, periphyton, chromatographic-fluorometric method, milligrams per square meter",Y
+71850,"Nitrate, water, unfiltered, milligrams per liter as nitrate",Y
+90853,"Chlordane plus degradates, bed sediment, recoverable, minimum summation, dry weight, micrograms per kilogram",Y
+90865,"DDT plus degradates, biota, whole organism, wet weight, maximum summation, micrograms per kilogram",Y
+90866,"Chlordane plus degradates, biota, whole organism, maximum summation, wet weight, micrograms per kilogram",Y
+32,"Cloud cover, percent",N
+35,"Wind speed, miles per hour",N
+450,"Bicarbonate, water, unfiltered, inflection-point titration method (incremental titration method), field, milligrams per liter",Y
+31625,"Fecal coliforms, M-FC MF (0.7 micron) method, water, colony forming units per 100 milliliters",Y
+50014,"Transit rate, sampler, minimum, feet per second",Y
+62855,"Total nitrogen [nitrate + nitrite + ammonia + organic-N], water, unfiltered, analytically determined, milligrams per liter",Y
+63676,"Turbidity, water, unfiltered, broad band light source (400-680 nm), detectors at multiple angles including 90 +-30 degrees, ratiometric correction, NTRU",Y
+90909,"Enterococci, mEI MF method, water, colony forming units per 100 ml",Y
+99112,"Topical quality-control data purpose, code",N
+99200,"Lot number, first, inorganic-grade water, number",N
+31673,"Fecal streptococci, KF streptococcus MF method, water, colony forming units per 100 milliliters",Y
+62452,"Arsenite, water, filtered, micrograms per liter as arsenic",Y
+62453,"Arsenate, water, filtered, micrograms per liter as arsenic",Y
+62454,"Monomethylarsonate ((CH3)HAsO3-), water, filtered, recoverable, micrograms per liter as arsenic",Y
+62455,"Dimethylarsinate ((CH3)2HAsO2), water, filtered, recoverable, micrograms per liter as arsenic",Y
+23,"Sample weight, pounds",N
+447,"Carbonate, water, unfiltered, inflection-point titration method (incremental titration method), field, milligrams per liter",Y
+29,Project number,N
+49260,"Acetochlor, water, filtered, recoverable, micrograms per liter",Y
+99818,"Set number, NWQL schedule 2001",Y
+52150,"Organic carbon, bed sediment, recoverable, dry weight, milligrams per kilogram",Y
+52814,"Ractopamine, water, filtered, recoverable, nanograms per liter",Y
+52815,"Hexamethylenetetramine, water, filtered, recoverable, nanograms per liter",Y
+52816,"Guanylurea, water, filtered, recoverable, nanograms per liter",Y
+52817,"Gabapentin, water, filtered, recoverable, nanograms per liter",Y
+61678,"Chlorsulfuron, water, filtered, recoverable, nanograms per liter",Y
+61679,"Flumetsulam, water, filtered, recoverable, nanograms per liter",Y
+61680,"Halosulfuron methyl, water, filtered, recoverable, nanograms per liter",Y
+61682,"Imazaquin, water, filtered, recoverable, nanograms per liter",Y
+61683,"Imazethapyr, water, filtered, recoverable, nanograms per liter",Y
+61685,"Nicosulfuron, water, filtered, recoverable, nanograms per liter",Y
+61687,"Prosulfuron, water, filtered, recoverable, nanograms per liter",Y
+63163,"1,4-Dichlorobenzene, solids, recoverable, dry weight, micrograms per kilogram",Y
+63165,"1-Methylnaphthalene, solids, recoverable, dry weight, micrograms per kilogram",Y
+63166,"BDE congener 47, solids, recoverable, dry weight, micrograms per kilogram",Y
+63167,"2,6-Dimethylnaphthalene, solids, recoverable, dry weight, micrograms per kilogram",Y
+63168,"2-Methylnaphthalene, solids, recoverable, dry weight, micrograms per kilogram",Y
+63170,"3-beta-Coprostanol, solids, recoverable, dry weight, micrograms per kilogram",Y
+63171,"3-Methyl-1H-indole, solids, recoverable, dry weight, micrograms per kilogram",Y
+63173,"4-Cumylphenol, solids, recoverable, dry weight, micrograms per kilogram",Y
+63174,"4-n-Octylphenol, solids, recoverable, dry weight, micrograms per kilogram",Y
+63175,"4-Nonylphenol (sum of all isomers), solids, recoverable, dry weight, micrograms per kilogram",Y
+63176,"4-tert-Octylphenol, solids, recoverable, dry weight, micrograms per kilogram",Y
+63178,"Acetophenone, solids, recoverable, dry weight, micrograms per kilogram",Y
+63179,"Acetyl hexamethyl tetrahydro naphthalene, solids, recoverable, dry weight, micrograms per kilogram",Y
+63180,"Anthracene, solids, recoverable, dry weight, micrograms per kilogram",Y
+63181,"9,10-Anthraquinone, solids, recoverable, dry weight, micrograms per kilogram",Y
+63182,"Atrazine, solids, recoverable, dry weight, micrograms per kilogram",Y
+63183,"Benzo[a]pyrene, solids, recoverable, dry weight, micrograms per kilogram",Y
+63184,"Benzophenone, solids, recoverable, dry weight, micrograms per kilogram",Y
+63185,"beta-Sitosterol, solids, recoverable, dry weight, micrograms per kilogram",Y
+63186,"beta-Stigmastanol, solids, recoverable, dry weight, micrograms per kilogram",Y
+63187,"Bis(2-ethylhexyl) phthalate, solids, recoverable, dry weight, micrograms per kilogram",Y
+63188,"Bisphenol A, solids, recoverable, dry weight, micrograms per kilogram",Y
+63189,"Bromacil, solids, recoverable, dry weight, micrograms per kilogram",Y
+63192,"Camphor, solids, recoverable, dry weight, micrograms per kilogram",Y
+63194,"Carbazole, solids, recoverable, dry weight, micrograms per kilogram",Y
+63195,"Chlorpyrifos, solids, recoverable, dry weight, micrograms per kilogram",Y
+63196,"Cholesterol, solids, recoverable, dry weight, micrograms per kilogram",Y
+63198,"Diazinon, solids, recoverable, dry weight, micrograms per kilogram",Y
+63200,"4-Nonylphenol diethoxylate (sum of all isomers), solids, recoverable, dry weight, micrograms per kilogram",Y
+63201,"4-tert-Octylphenol diethoxylate, solids, recoverable, dry weight, micrograms per kilogram",Y
+63202,"Diethyl phthalate, solids, recoverable, dry weight, micrograms per kilogram",Y
+63203,"D-Limonene, solids, recoverable, dry weight, micrograms per kilogram",Y
+63206,"4-tert-Octylphenol monoethoxylate, solids, recoverable, dry weight, micrograms per kilogram",Y
+63208,"Fluoranthene, solids, recoverable, dry weight, micrograms per kilogram",Y
+63209,"Hexahydrohexamethyl cyclopentabenzopyran, solids, recoverable, dry weight, micrograms per kilogram",Y
+63210,"Indole, solids, recoverable, dry weight, micrograms per kilogram",Y
+63211,"Isoborneol, solids, recoverable, dry weight, micrograms per kilogram",Y
+63212,"Isophorone, solids, recoverable, dry weight, micrograms per kilogram",Y
+63213,"Isopropylbenzene, solids, recoverable, dry weight, micrograms per kilogram",Y
+63214,"Isoquinoline, solids, recoverable, dry weight, micrograms per kilogram",Y
+63215,"Menthol, solids, recoverable, dry weight, micrograms per kilogram",Y
+63218,"Metolachlor, solids, recoverable, dry weight, micrograms per kilogram",Y
+63219,"N,N-Diethyl-m-toluamide (DEET), solids, recoverable, dry weight, micrograms per kilogram",Y
+63220,"Naphthalene, solids, recoverable, dry weight, micrograms per kilogram",Y
+63221,"4-Nonylphenol monoethoxylate (sum of all isomers), solids, recoverable, dry weight, micrograms per kilogram",Y
+63222,"p-Cresol, solids, recoverable, dry weight, micrograms per kilogram",Y
+63224,"Phenanthrene, solids, recoverable, dry weight, micrograms per kilogram",Y
+63225,"Phenol, solids, recoverable, dry weight, micrograms per kilogram",Y
+63226,"Prometon, solids, recoverable, dry weight, micrograms per kilogram",Y
+63227,"Pyrene, solids, recoverable, dry weight, micrograms per kilogram",Y
+63229,"Tris(2-butoxyethyl) phosphate, solids, recoverable, dry weight, micrograms per kilogram",Y
+63230,"Tris(2-chloroethyl) phosphate, solids, recoverable, dry weight, micrograms per kilogram",Y
+63231,"Tributyl phosphate, solids, recoverable, dry weight, micrograms per kilogram",Y
+63232,"Triclosan, solids, recoverable, dry weight, micrograms per kilogram",Y
+63234,"Triphenyl phosphate, solids, recoverable, dry weight, micrograms per kilogram",Y
+64527,"11-Ketotestosterone, water, unfiltered, recoverable, nanograms per liter",Y
+64528,"17-alpha-Estradiol, water, unfiltered, recoverable, nanograms per liter",Y
+64529,"17-alpha-Ethynylestradiol, water, unfiltered, recoverable, nanograms per liter",Y
+64530,"17-beta-Estradiol, water, unfiltered, recoverable, nanograms per liter",Y
+64531,"Norethindrone, water, unfiltered, recoverable, nanograms per liter",Y
+64532,"3-beta-Coprostanol, water, unfiltered, recoverable, nanograms per liter",Y
+64533,"4-Androstene-3,17-dione, water, unfiltered, recoverable, nanograms per liter",Y
+64534,"Cholesterol, water, unfiltered, recoverable, nanograms per liter",Y
+64535,"cis-Androsterone, water, unfiltered, recoverable, nanograms per liter",Y
+64536,"trans-Diethylstilbestrol, water, unfiltered, recoverable, nanograms per liter",Y
+64537,"Epitestosterone, water, unfiltered, recoverable, nanograms per liter",Y
+64538,"Equilenin, water, unfiltered, recoverable, nanograms per liter",Y
+64539,"Equilin, water, unfiltered, recoverable, nanograms per liter",Y
+64540,"Estriol, water, unfiltered, recoverable, nanograms per liter",Y
+64541,"Estrone, water, unfiltered, recoverable, nanograms per liter",Y
+64542,"Mestranol, water, unfiltered, recoverable, nanograms per liter",Y
+64543,"Progesterone, water, unfiltered, recoverable, nanograms per liter",Y
+64544,"Dihydrotestosterone, water, unfiltered, recoverable, nanograms per liter",Y
+64545,"Testosterone, water, unfiltered, recoverable, nanograms per liter",Y
+65064,"Alachlor, water, filtered, recoverable, nanograms per liter",Y
+65065,"Atrazine, water, filtered, recoverable, nanograms per liter",Y
+65066,"Azinphos-methyl, water, filtered, recoverable, nanograms per liter",Y
+65067,"Bifenthrin, water, filtered, recoverable, nanograms per liter",Y
+65068,"Butylate, water, filtered, recoverable, nanograms per liter",Y
+65069,"Carbaryl, water, filtered, recoverable, nanograms per liter",Y
+65070,"Carbofuran, water, filtered, recoverable, nanograms per liter",Y
+65072,"Chlorpyrifos, water, filtered, recoverable, nanograms per liter",Y
+65078,"Diazinon, water, filtered, recoverable, nanograms per liter",Y
+65080,"EPTC, water, filtered, recoverable, nanograms per liter",Y
+65084,"Fonofos, water, filtered, recoverable, nanograms per liter",Y
+65085,"Hexazinone, water, filtered, recoverable, nanograms per liter",Y
+65087,"Malathion, water, filtered, recoverable, nanograms per liter",Y
+65088,"Methidathion, water, filtered, recoverable, nanograms per liter",Y
+65090,"Metolachlor, water, filtered, recoverable, nanograms per liter",Y
+65091,"Molinate, water, filtered, recoverable, nanograms per liter",Y
+65093,"Oxyfluorfen, water, filtered, recoverable, nanograms per liter",Y
+65098,"Pendimethalin, water, filtered, recoverable, nanograms per liter",Y
+65102,"Piperonyl butoxide, water, filtered, recoverable, nanograms per liter",Y
+65103,"Prometryn, water, filtered, recoverable, nanograms per liter",Y
+65105,"Simazine, water, filtered, recoverable, nanograms per liter",Y
+65107,"Thiobencarb, water, filtered, recoverable, nanograms per liter",Y
+66589,"Azoxystrobin, water, filtered, recoverable, nanograms per liter",Y
+66592,"Cyanazine, water, filtered, recoverable, nanograms per liter",Y
+66596,"Dimethoate, water, filtered, recoverable, nanograms per liter",Y
+66598,"Diuron, water, filtered, recoverable, nanograms per liter",Y
+66604,"Fipronil, water, filtered, recoverable, nanograms per liter",Y
+66607,"Desulfinylfipronil, water, filtered, recoverable, nanograms per liter",Y
+66610,"Fipronil sulfide, water, filtered, recoverable, nanograms per liter",Y
+66613,"Fipronil sulfone, water, filtered, recoverable, nanograms per liter",Y
+66620,"Metconazole, water, filtered, recoverable, nanograms per liter",Y
+66632,"Myclobutanil, water, filtered, recoverable, nanograms per liter",Y
+66641,"Propanil, water, filtered, recoverable, nanograms per liter",Y
+66643,"Propiconazole, water, filtered, recoverable, nanograms per liter",Y
+66646,"Pyraclostrobin, water, filtered, recoverable, nanograms per liter",Y
+66649,"Tebuconazole, water, filtered, recoverable, nanograms per liter",Y
+66651,"Terbuthylazine, water, filtered, recoverable, nanograms per liter",Y
+66654,"Tetraconazole, water, filtered, recoverable, nanograms per liter",Y
+66660,"Trifloxystrobin, water, filtered, recoverable, nanograms per liter",Y
+67305,"Bisphenol A, water, unfiltered, recoverable, nanograms per liter",Y
+67309,"Bisphenol A-d16, isotope dilution standard, water, unfiltered, percent recovery",Y
+67434,"Norethindrone, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67435,"Piperonyl butoxide, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67436,"Acetaminophen, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67437,"Albuterol, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67439,"Bupropion, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67440,"Caffeine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67441,"Carbamazepine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67442,"Cimetidine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67443,"Codeine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67444,"Cotinine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67445,"Dehydronifedipine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67446,"1,7-Dimethylxanthine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67447,"Diphenhydramine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67448,"Duloxetine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67449,"Erythromycin, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67450,"Fluoxetine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67451,"Norfluoxetine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67452,"Ranitidine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67454,"Sulfamethoxazole, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67455,"Thiabendazole, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67456,"Trimethoprim, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67457,"Warfarin, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67458,"Morphine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67459,"Hydrocortisone, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67460,"Pseudoephedrine + Ephedrine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67461,"Amphetamine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67462,"Lidocaine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67464,"Meprobamate, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67466,"Phenytoin, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67467,"Prednisone, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67468,"Dextromethorphan, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67469,"Oxazepam, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67470,"Lorazepam, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67471,"Temazepam, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67472,"Verapamil, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67475,"Triamterene, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67476,"Sulfamethizole, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67477,"Antipyrine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67478,"Fluconazole, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67479,"Nizatidine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67480,"Pentoxifylline, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67481,"Iminostilbene, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67483,"Prednisolone, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67484,"Acyclovir, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67485,"Betamethasone, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67487,"Ezetimibe, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67488,"Loratadine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67489,"Fenofibrate, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67492,"Metformin, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67493,"Nicotine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67494,"Theophylline, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67495,"Oxycodone, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67496,"Phendimetrazine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67497,"Chlorpheniramine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67498,"Carisoprodol, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67499,"Diazepam, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67500,"Methadone, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67501,"Methocarbamol, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67502,"Atenolol, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67503,"Sulfadimethoxine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67504,"Metaxalone, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67505,"Citalopram, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67506,"Hydrocodone, water,filtered (0.2 micron filter0, recoverable, nanograms per liter",Y
+67507,"Valacyclovir, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67508,"Tiotropium, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67510,"Fexofenadine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67511,"Oseltamivir, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67512,"Omeprazole + Esomeprazole, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67514,"Methyl-1H-benzotriazole, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67515,"Loperamide, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67516,"Propranolol, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67517,"Tramadol, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67518,"Clonidine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67519,"Diltiazem, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67521,"Fluvoxamine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67522,"Amitriptyline, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67523,"Metoprolol, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67524,"Promethazine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67525,"Methotrexate, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67527,"Paroxetine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67528,"Sertraline, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67529,"Fluticasone propionate, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67530,"Raloxifene, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67531,"Sitagliptin, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67532,"Norsertraline, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67534,"Venlafaxine, water, filtered (0.2 micron filter), recoverable, nanograms per liter",Y
+67595,"Disulfoton, water, filtered, recoverable, nanograms per liter",Y
+67670,"Kresoxim-methyl, water, filtered, recoverable, nanograms per liter",Y
+67685,"Norflurazon, water, filtered, recoverable, nanograms per liter",Y
+67702,"Prometon, water, filtered, recoverable, nanograms per liter",Y
+67706,"Propyzamide, water, filtered, recoverable, nanograms per liter",Y
+67995,"10-Hydroxy-amitriptyline, water, filtered, recoverable, nanograms per liter",Y
+67997,"Benztropine, water, filtered, recoverable, nanograms per liter",Y
+67999,"Desmethyldiltiazem, water, filtered, recoverable, nanograms per liter",Y
+68000,"Famotidine, water, filtered, recoverable, nanograms per liter",Y
+68001,"Glipizide, water, filtered, recoverable, nanograms per liter",Y
+68002,"Glyburide, water, filtered, recoverable, nanograms per liter",Y
+68005,"Hydroxyzine, water, filtered, recoverable, nanograms per liter",Y
+68006,"Nadolol, water, filtered, recoverable, nanograms per liter",Y
+68007,"Norverapamil, water, filtered, recoverable, nanograms per liter",Y
+68008,"Phenazopyridine, water, filtered, recoverable, nanograms per liter",Y
+68009,"Propoxyphene, water, filtered, recoverable, nanograms per liter",Y
+68011,"Quinine, water, filtered, recoverable, nanograms per liter",Y
+68012,"Fadrozole, water, filtered, recoverable, nanograms per liter",Y
+68014,"Ketoconazole, water, filtered, recoverable, nanograms per liter",Y
+68015,"Tamoxifen, water, filtered, recoverable, nanograms per liter",Y
+68017,"Nevirapine, water, filtered, recoverable, nanograms per liter",Y
+68018,"Lamivudine, water, filtered, recoverable, nanograms per liter",Y
+68021,"Penciclovir, water, filtered, recoverable, nanograms per liter",Y
+68022,"Abacavir, water, filtered, recoverable, nanograms per liter",Y
+68211,"Azinphos-methyl oxygen analog, water, filtered, recoverable, nanograms per liter",Y
+68216,"Chlorpyrifos oxon, water, filtered, recoverable, nanograms per liter",Y
+68226,"3,4-Dichlorophenylurea, water, filtered, recoverable, nanograms per liter",Y
+68231,"N-(3,4-Dichlorophenyl)-N'-methylurea, water, filtered, recoverable, nanograms per liter",Y
+68236,"Diazoxon, water, filtered, recoverable, nanograms per liter",Y
+68240,"Malaoxon, water, filtered, recoverable, nanograms per liter",Y
+68250,"Alprazolam, water, filtered, recoverable, nanograms per liter",Y
+68251,"Desvenlafaxine, water, filtered, recoverable, nanograms per liter",Y
+68252,"Nordiazepam, water, filtered, recoverable, nanograms per liter",Y
+68336,"4-Hydroxychlorothalonil, water, filtered, recoverable, nanograms per liter",Y
+68426,"Imidacloprid, water, filtered, recoverable, nanograms per liter",Y
+68437,"Metalaxyl, water, filtered, recoverable, nanograms per liter",Y
+68498,"1H-1,2,4-Triazole, water, filtered, recoverable, nanograms per liter",Y
+68500,"2,4-D, water, filtered, recoverable, nanograms per liter",Y
+68502,"2-Aminobenzimidazole, water, filtered, recoverable, nanograms per liter",Y
+68503,"2-Amino-N-isopropylbenzamide, water, filtered, recoverable, nanograms per liter",Y
+68505,"2-Isopropyl-6-methyl-4-pyrimidinol, water, filtered, recoverable, nanograms per liter",Y
+68508,"3-Hydroxy carbofuran, water, filtered, recoverable, nanograms per liter",Y
+68511,"4-(Hydroxymethyl) pendimethalin, water, filtered, recoverable, nanograms per liter",Y
+68514,"4-Chlorobenzylmethyl sulfoxide, water, filtered, recoverable, nanograms per liter",Y
+68515,"4-Hydroxy molinate, water, filtered, recoverable, nanograms per liter",Y
+68517,"4-Hydroxyhexazinone A, water, filtered, recoverable, nanograms per liter",Y
+68519,"Acephate, water, filtered, recoverable, nanograms per liter",Y
+68520,"Acetochlor, water, filtered, recoverable, nanograms per liter",Y
+68521,"2-Chloro-N-(2-ethyl-6-methylphenyl)acetamide, water, filtered, recoverable, nanograms per liter",Y
+68522,"Acetochlor oxanilic acid, water, filtered, recoverable, nanograms per liter",Y
+68523,"Acetochlor sulfonic acid, water, filtered, recoverable, nanograms per liter",Y
+68524,"Acetochlor sulfinylacetic acid, water, filtered, recoverable, nanograms per liter",Y
+68525,"2-Chloro-2',6'-diethylacetanilide, water, filtered, recoverable, nanograms per liter",Y
+68526,"Alachlor oxanilic acid, water, filtered, recoverable, nanograms per liter",Y
+68527,"Alachlor sulfinylacetic acid, water, filtered, recoverable, nanograms per liter",Y
+68528,"Aldicarb, water, filtered, recoverable, nanograms per liter",Y
+68529,"Aldicarb sulfone, water, filtered, recoverable, nanograms per liter",Y
+68530,"Aldicarb sulfoxide, water, filtered, recoverable, nanograms per liter",Y
+68533,"Ametryn, water, filtered, recoverable, nanograms per liter",Y
+68536,"Asulam, water, filtered, recoverable, nanograms per liter",Y
+68538,"Bentazon, water, filtered, recoverable, nanograms per liter",Y
+68542,"Bromacil, water, filtered, recoverable, nanograms per liter",Y
+68543,"Bromoxynil, water, filtered, recoverable, nanograms per liter",Y
+68545,"Butralin, water, filtered, recoverable, nanograms per liter",Y
+68547,"Chlorodiamino-s-triazine, water, filtered, recoverable, nanograms per liter",Y
+68548,"Carbendazim, water, filtered, recoverable, nanograms per liter",Y
+68549,"Carboxy molinate, water, filtered, recoverable, nanograms per liter",Y
+68550,"2-Chloro-6-ethylamino-4-amino-s-triazine, water, filtered, recoverable, nanograms per liter",Y
+68551,"Chlorosulfonamide acid, water, filtered, recoverable, nanograms per liter",Y
+68552,"2-Chloro-4-isopropylamino-6-amino-s-triazine, water, filtered, recoverable, nanograms per liter",Y
+68553,"cis-Cyhalothric acid, water, filtered, recoverable, nanograms per liter",Y
+68560,"DCPA monoacid, water, filtered, recoverable, nanograms per liter",Y
+68561,"Dechlorofipronil, water, filtered, recoverable, nanograms per liter",Y
+68562,"Dechlorometolachlor, water, filtered, recoverable, nanograms per liter",Y
+68563,"Deiodo flubendiamide, water, filtered, recoverable, nanograms per liter",Y
+68564,"Deisopropyl prometryn, water, filtered, recoverable, nanograms per liter",Y
+68566,"Demethyl hexazinone B, water, filtered, recoverable, nanograms per liter",Y
+68567,"Demethyl norflurazon, water, filtered, recoverable, nanograms per liter",Y
+68568,"Desamino metribuzin, water, filtered, recoverable, nanograms per liter",Y
+68569,"Desamino-diketo metribuzin, water, filtered, recoverable, nanograms per liter",Y
+68570,"Desulfinylfipronil amide, water, filtered, recoverable, nanograms per liter",Y
+68571,"Dicamba, water, filtered, recoverable, nanograms per liter",Y
+68572,"Dichlorvos, water, filtered, recoverable, nanograms per liter",Y
+68573,"Dicrotophos, water, filtered, recoverable, nanograms per liter",Y
+68574,"Didemethyl hexazinone F, water, filtered, recoverable, nanograms per liter",Y
+68575,"Tebuthiuron Transformation Product 104, water, filtered, recoverable, nanograms per liter",Y
+68576,"Diflubenzuron, water, filtered, recoverable, nanograms per liter",Y
+68577,"Diflufenzopyr, water, filtered, recoverable, nanograms per liter",Y
+68578,"Diketonitrile-isoxaflutole, water, filtered, recoverable, nanograms per liter",Y
+68580,"Dimethenamid, water, filtered, recoverable, nanograms per liter",Y
+68581,"Dimethenamid oxanilic acid, water, filtered, recoverable, nanograms per liter",Y
+68582,"Dimethenamid sulfonic acid, water, filtered, recoverable, nanograms per liter",Y
+68583,"Dimethenamid sulfinylacetic acid, water, filtered, recoverable, nanograms per liter",Y
+68586,"Disulfoton oxon, water, filtered, recoverable, nanograms per liter",Y
+68587,"Disulfoton oxon sulfoxide, water, filtered, recoverable, nanograms per liter",Y
+68588,"Disulfoton oxon sulfone, water, filtered, recoverable, nanograms per liter",Y
+68589,"Disulfoton sulfone, water, filtered, recoverable, nanograms per liter",Y
+68590,"Disulfoton sulfoxide, water, filtered, recoverable, nanograms per liter",Y
+68591,"Demethyl fluometuron, water, filtered, recoverable, nanograms per liter",Y
+68594,"EPTC degradate R248722, water, filtered, recoverable, nanograms per liter",Y
+68595,"2-[(2-Ethyl-6-methylphenyl)amino]-1-propanol, water, filtered, recoverable, nanograms per liter",Y
+68596,"Ethoprop, water, filtered, recoverable, nanograms per liter",Y
+68597,"O-Ethyl O-methyl S-propyl phosphorothioate, water, filtered, recoverable, nanograms per liter",Y
+68598,"Etoxazole, water, filtered, recoverable, nanograms per liter",Y
+68599,"Fenamiphos, water, filtered, recoverable, nanograms per liter",Y
+68600,"Fenamiphos sulfone, water, filtered, recoverable, nanograms per liter",Y
+68601,"Fenamiphos sulfoxide, water, filtered, recoverable, nanograms per liter",Y
+68602,"Fenbutatin oxide, water, filtered, recoverable, nanograms per liter",Y
+68603,"Fentin, water, filtered, recoverable, nanograms per liter",Y
+68604,"Fipronil amide, water, filtered, recoverable, nanograms per liter",Y
+68605,"Fipronil sulfonate, water, filtered, recoverable, nanograms per liter",Y
+68606,"Flubendiamide, water, filtered, recoverable, nanograms per liter",Y
+68608,"Fluometuron, water, filtered, recoverable, nanograms per liter",Y
+68611,"2-(1-Hydroxyethyl)-6-methylaniline, water, filtered, recoverable, nanograms per liter",Y
+68612,"Hexazinone Transformation Product C, water, filtered, recoverable, nanograms per liter",Y
+68613,"Hexazinone Transformation Product D, water, filtered, recoverable, nanograms per liter",Y
+68614,"Hexazinone Transformation Product E, water, filtered, recoverable, nanograms per liter",Y
+68615,"Hydroxyacetochlor, water, filtered, recoverable, nanograms per liter",Y
+68616,"Hydroxyalachlor, water, filtered, recoverable, nanograms per liter",Y
+68617,"Hydroxy monodemethyl fluometuron, water, filtered, recoverable, nanograms per liter",Y
+68618,"Hydroxydiazinon, water, filtered, recoverable, nanograms per liter",Y
+68619,"Hydroxy didemethyl fluometuron, water, filtered, recoverable, nanograms per liter",Y
+68620,"Hydroxyfluometuron, water, filtered, recoverable, nanograms per liter",Y
+68621,"Tebuthiuron Transformation Product 109, water, filtered, recoverable, nanograms per liter",Y
+68622,"Hydroxymetolachlor, water, filtered, recoverable, nanograms per liter",Y
+68623,"Hydroxyphthalazinone, water, filtered, recoverable, nanograms per liter",Y
+68624,"Hydroxysimazine, water, filtered, recoverable, nanograms per liter",Y
+68625,"Imazamox, water, filtered, recoverable, nanograms per liter",Y
+68627,"Indoxacarb, water, filtered, recoverable, nanograms per liter",Y
+68632,"Isoxaflutole, water, filtered, recoverable, nanograms per liter",Y
+68633,"Isoxaflutole acid metabolite RPA 203328, water, filtered, recoverable, nanograms per liter",Y
+68638,"Lactofen, water, filtered, recoverable, nanograms per liter",Y
+68639,"Linuron, water, filtered, recoverable, nanograms per liter",Y
+68641,"MCPA, water, filtered, recoverable, nanograms per liter",Y
+68644,"Methamidophos, water, filtered, recoverable, nanograms per liter",Y
+68645,"Methomyl, water, filtered, recoverable, nanograms per liter",Y
+68646,"Methomyl oxime, water, filtered, recoverable, nanograms per liter",Y
+68647,"Methoxyfenozide, water, filtered, recoverable, nanograms per liter",Y
+68648,"Methyl paraoxon, water, filtered, recoverable, nanograms per liter",Y
+68649,"Metolachlor hydroxy morpholinone, water, filtered, recoverable, nanograms per liter",Y
+68650,"Metolachlor oxanilic acid, water, filtered, recoverable, nanograms per liter",Y
+68651,"Metolachlor sulfonic acid, water, filtered, recoverable, nanograms per liter",Y
+68652,"Metribuzin, water, filtered, recoverable, nanograms per liter",Y
+68653,"Metribuzin DK, water, filtered, recoverable, nanograms per liter",Y
+68654,"Naled, water, filtered, recoverable, nanograms per liter",Y
+68656,"2-Hydroxy-6-ethylamino-4-amino-s-triazine, water, filtered, recoverable, nanograms per liter",Y
+68657,"O-Ethyl S-methyl S-propyl phosphorodithioate, water, filtered, recoverable, nanograms per liter",Y
+68658,"O-Ethyl S-propyl phosphorothioate, water, filtered, recoverable, nanograms per liter",Y
+68659,"2-Hydroxy-4-isopropylamino-6-amino-s-triazine, water, filtered, recoverable, nanograms per liter",Y
+68660,"2-Hydroxy-4-isopropylamino-6-ethylamino-s-triazine, water, filtered, recoverable, nanograms per liter",Y
+68661,"Omethoate, water, filtered, recoverable, nanograms per liter",Y
+68662,"Orthosulfamuron, water, filtered, recoverable, nanograms per liter",Y
+68663,"Oryzalin, water, filtered, recoverable, nanograms per liter",Y
+68664,"Oxamyl, water, filtered, recoverable, nanograms per liter",Y
+68665,"Oxamyl oxime, water, filtered, recoverable, nanograms per liter",Y
+68666,"Paraoxon, water, filtered, recoverable, nanograms per liter",Y
+68668,"Phorate, water, filtered, recoverable, nanograms per liter",Y
+68669,"Phorate oxygen analog, water, filtered, recoverable, nanograms per liter",Y
+68670,"Phorate oxygen analog sulfone, water, filtered, recoverable, nanograms per liter",Y
+68671,"Phorate oxon sulfoxide, water, filtered, recoverable, nanograms per liter",Y
+68672,"Phorate sulfone, water, filtered, recoverable, nanograms per liter",Y
+68673,"Phorate sulfoxide, water, filtered, recoverable, nanograms per liter",Y
+68675,"Phthalazinone, water, filtered, recoverable, nanograms per liter",Y
+68676,"Profenofos, water, filtered, recoverable, nanograms per liter",Y
+68677,"Propargite, water, filtered, recoverable, nanograms per liter",Y
+68678,"Propazine, water, filtered, recoverable, nanograms per liter",Y
+68679,"Propoxur, water, filtered, recoverable, nanograms per liter",Y
+68682,"Pyridaben, water, filtered, recoverable, nanograms per liter",Y
+68683,"Pyriproxyfen, water, filtered, recoverable, nanograms per liter",Y
+68684,"sec-Acetochlor oxanilic acid, water, filtered, recoverable, nanograms per liter",Y
+68685,"sec-Alachlor oxanilic acid, water, filtered, recoverable, nanograms per liter",Y
+68686,"Siduron, water, filtered, recoverable, nanograms per liter",Y
+68687,"Sulfentrazone, water, filtered, recoverable, nanograms per liter",Y
+68688,"Sulfometuron-methyl, water, filtered, recoverable, nanograms per liter",Y
+68689,"Sulfosulfuron, water, filtered, recoverable, nanograms per liter",Y
+68690,"Sulfosulfuron ethyl sulfone, water, filtered, recoverable, nanograms per liter",Y
+68691,"2,3,3-Trichloro-2-propene-1-sulfonic acid (sodium salt), water, filtered, recoverable, nanograms per liter",Y
+68692,"Tebufenozide, water, filtered, recoverable, nanograms per liter",Y
+68693,"Tebupirimfos, water, filtered, recoverable, nanograms per liter",Y
+68694,"Tebupirimfos oxon, water, filtered, recoverable, nanograms per liter",Y
+68695,"Tebuthiuron, water, filtered, recoverable, nanograms per liter",Y
+68696,"Tebuthiuron Transformation Product 108, water, filtered, recoverable, nanograms per liter",Y
+68697,"Tebuthiuron Transformation Product 109 (OH), water, filtered, recoverable, nanograms per liter",Y
+68698,"Terbacil, water, filtered, recoverable, nanograms per liter",Y
+68699,"Terbufos, water, filtered, recoverable, nanograms per liter",Y
+68700,"Terbufos oxon, water, filtered, recoverable, nanograms per liter",Y
+68701,"Terbufos oxygen analog sulfone, water, filtered, recoverable, nanograms per liter",Y
+68702,"Terbufos oxon sulfoxide, water, filtered, recoverable, nanograms per liter",Y
+68703,"Terbufos sulfone, water, filtered, recoverable, nanograms per liter",Y
+68704,"Terbufos sulfoxide, water, filtered, recoverable, nanograms per liter",Y
+68708,"trans-Permethrin, water, filtered, recoverable, nanograms per liter",Y
+68710,"Triallate, water, filtered, recoverable, nanograms per liter",Y
+68711,"Tribufos, water, filtered, recoverable, nanograms per liter",Y
+68712,"Triclopyr, water, filtered, recoverable, nanograms per liter",Y
+68713,"Hexazinone Transformation Product G, water, filtered, recoverable, nanograms per liter",Y
+68714,"Tebuthiuron Transformation Product 106, water, filtered, recoverable, nanograms per liter",Y
+68769,"cis-Permethrin, water, filtered, recoverable, nanograms per liter",Y
+68871,"Alachlor sulfonic acid, water, filtered, recoverable, nanograms per liter",Y
+68872,"Chlorimuron-ethyl, water, filtered, recoverable, nanograms per liter",Y
+68873,"3-Phenoxybenzoic acid, water, filtered, recoverable, nanograms per liter",Y
+90395,"Metformin-d6, internal standard/surrogate, NWQL schedule 2440, water, filtered, percent recovery",Y
+90509,"cis-Androsterone-2,2,3,4,4-d5, isotope dilution standard, water, unfiltered, percent recovery",Y
+90511,"Progesterone-2,3,4-13C3, isotope dilution standard, water, unfiltered, percent recovery",Y
+90516,"3-Phenoxybenzoic acid-13C6, surrogate, water, filtered, percent recovery",Y
+90517,"Acetochlor-d11, surrogate, water, filtered, percent recovery",Y
+90518,"Alachlor-d13, surrogate, water, filtered, percent recovery",Y
+90519,"Carbaryl-d7, surrogate, water, filtered, percent recovery",Y
+90520,"Carbendazim-d4, surrogate, water, filtered, percent recovery",Y
+90521,"Carbofuran-d3 (N-methyl-d3), surrogate, water, filtered, percent recovery",Y
+90522,"Deethylatrazine-d6, surrogate, water, filtered, percent recovery",Y
+90523,"Diazinon-d10 (diethyl-d10), surrogate, water, filtered, percent recovery",Y
+90524,"Diflubenzuron-d4 (4-chlorophenyl-d4), surrogate, water, filtered, percent recovery",Y
+90527,"Hexazinone-d6 (N,N-dimethyl-d6), surrogate, water, filtered, percent recovery",Y
+90529,"Linuron-d6 (dimethyl-d6), surrogate, water, filtered, percent recovery",Y
+90552,"Malathion-d10 (diethyl-d10), surrogate, water, filtered, percent recovery",Y
+90553,"Metolachlor-d6, surrogate, water, filtered, percent recovery",Y
+90554,"Nicosulfuron-d6 (dimethoxy-d6), surrogate, water, filtered, percent recovery",Y
+90555,"Tebuconazole-d6, surrogate, water, filtered, percent recovery",Y
+90556,"Thiobencarb-d10 (diethyl-d10), surrogate, water, filtered, percent recovery",Y
+90558,"cis-Permethrin-13C6, surrogate/internal standard, water, filtered, percent recovery",Y
+90624,"Butachlor sulfonic acid, surrogate, NWQL schedule 2437, water, filtered, percent recovery",Y
+90625,"Dimethachlor sulfonic acid, surrogate, NWQL schedule 2437, water, filtered, percent recovery",Y
+90737,"Decafluorobiphenyl, surrogate, NWQL wastewater compound schedules (WCS), percent recovery",Y
+90738,"Fluoranthene-d10, surrogate, NWQL wastewater compound schedules (WCS), percent recovery",Y
+90781,"Cholesterol-25,26,26,26,27,27,27-d7, isotope dilution standard, water, unfiltered, percent recovery",Y
+90808,"Diuron-d6, surrogate, water, filtered, percent recovery",Y
+90827,"17-alpha-Ethynylestradiol-2,4,16,16-d4, isotope dilution standard, water, unfiltered, percent recovery",Y
+90832,"trans-Diethyl-1,1,1',1'-d4-stilbestrol-3,3',5,5'-d4, isotope dilution standard, water, unfiltered, percent recovery",Y
+90836,"Mestranol-2,4,16,16-d4, isotope dilution standard, water, unfiltered, percent recovery",Y
+91100,"Sample weight, NWQL wastewater compound schedules (WCS), wet weight, grams",Y
+91119,"Sample volume, water, unfiltered, NWQL hormone schedule, milliliters",Y
+91156,"Moisture content, bed sediment, dry weight, percent",Y
+91616,"Estriol-2,4,16,17-d4, isotope dilution standard, water, unfiltered, percent recovery",Y
+91680,"16-Epiestriol-2,4-d2, isotope dilution standard/surrogate, water, unfiltered, percent recovery",Y
+91682,"Medroxyprogesterone-d3, isotope dilution standard/surrogate, water, unfiltered, percent recovery",Y
+91683,"Nandrolone-16,16,17-d3, isotope dilution standard, water, unfiltered, percent recovery",Y
+91749,"Bisphenol A-d14, surrogate, solids, recoverable, percent recovery",Y
+91755,"17-beta-Estradiol-13,14,15,16,17,18-13C6, isotope dilution standard, water, unfiltered, percent recovery",Y
+91756,"Estrone-13,14,15,16,17,18-13C6, isotope dilution standard, water, unfiltered, percent recovery",Y
+91769,"Thiabendazole-d4, surrogate, water, filtered (0.2 micron filter), percent recovery",Y
+91772,"Albuterol-d9, surrogate, water, filtered (0.2 micron filter), percent recovery",Y
+91773,"Diltiazem-d3, surrogate, water, filtered (0.2 micron filter), percent recovery",Y
+91774,"Trimethoprim-d9, surrogate, water, filtered (0.2 micron filter), percent recovery",Y
+91775,"Acetaminophen-d3, surrogate, water, filtered (0.2 micron filter), percent recovery",Y
+91776,"Norfluoxetine-d6, surrogate, water, filtered (0.2 micron filter), percent recovery",Y
+91777,"Methadone-d9, surrogate, water, filtered (0.2 micron filter), percent recovery",Y
+91778,"Oxycodone-d3, surrogate, water, filtered (0.2 micron filter), percent recovery",Y
+91779,"Hydrocodone-d3, surrogate, water, filtered (0.2 micron filter), percent recovery",Y
+91780,"Temazepam-d5, surrogate, water, filtered (0.2 micron filter), percent recovery",Y
+91781,"Caffeine-(trimethyl-13C3), surrogate, water, filtered (0.2 micron filter), percent recovery",Y
+91782,"Sulfamethoxazole-(phenyl-13C6), surrogate, water, filtered (0.2 micron filter), percent recovery",Y
+91783,"Cotinine-d3, surrogate, water, filtered (0.2 micron filter), percent recovery",Y
+91784,"Amphetamine-d6, surrogate, water, filtered (0.2 micron filter), percent recovery",Y
+91786,"Codeine-d6, surrogate, water, filtered (0.2 micron filter), percent recovery",Y
+91787,"Pseudoephedrine-d3, surrogate, water, filtered (0.2 micron filter), percent recovery",Y
+91788,"Diphenhydramine-d3, surrogate, water, filtered (0.2 micron filter), percent recovery",Y
+91789,"Fluoxetine-d6, surrogate, water, filtered (0.2 micron filter), percent recovery",Y
+91790,"Diazepam-d5, surrogate, water, filtered (0.2 micron filter), percent recovery",Y
+91986,"2,4-D-d3, surrogate, water, filtered, percent recovery",Y
+31501,"Total coliforms, M-Endo MF method, immediate, water, colony forming units per 100 milliliters",Y
+31633,"Escherichia coli, m-TEC MF method, water, colony forming units per 100 milliliters",Y
+49237,"Aluminum, biota, tissue, recoverable, dry weight, milligrams per kilogram",Y
+49238,"Barium, biota, tissue, recoverable, dry weight, milligrams per kilogram",Y
+49239,"Boron, biota, tissue, recoverable, dry weight, milligrams per kilogram",Y
+49240,"Chromium, biota, tissue, recoverable, dry weight, milligrams per kilogram",Y
+49241,"Copper, biota, tissue, recoverable, dry weight, milligrams per kilogram",Y
+49242,"Iron, biota, tissue, recoverable, dry weight, milligrams per kilogram",Y
+49243,"Manganese, biota, tissue, recoverable, dry weight, milligrams per kilogram",Y
+49244,"Strontium, biota, tissue, recoverable, dry weight, milligrams per kilogram",Y
+49245,"Zinc, biota, tissue, recoverable, dry weight, milligrams per kilogram",Y
+49246,"Antimony, biota, tissue, recoverable, dry weight, milligrams per kilogram",Y
+49247,"Arsenic, biota, tissue, recoverable, dry weight, milligrams per kilogram",Y
+49248,"Beryllium, biota, tissue, recoverable, dry weight, milligrams per kilogram",Y
+49249,"Cadmium, biota, tissue, recoverable, dry weight, milligrams per kilogram",Y
+49250,"Cobalt, biota, tissue, recoverable, dry weight, milligrams per kilogram",Y
+49251,"Lead, biota, tissue, recoverable, dry weight, milligrams per kilogram",Y
+49252,"Molybdenum, biota, tissue, recoverable, dry weight, milligrams per kilogram",Y
+49253,"Nickel, biota, tissue, recoverable, dry weight, milligrams per kilogram",Y
+49254,"Selenium, biota, tissue, recoverable, dry weight, milligrams per kilogram",Y
+49255,"Silver, biota, tissue, recoverable, dry weight, milligrams per kilogram",Y
+49257,"Uranium, biota, tissue, recoverable, dry weight, milligrams per kilogram",Y
+49258,"Mercury, biota, tissue, recoverable, dry weight, milligrams per kilogram",Y
+49261,"alpha-HCH-d6, surrogate, biota, whole organism, percent recovery",Y
+49273,"Water present, biota, tissue, recoverable, dry weight, percent",Y
+49275,"alpha-HCH-d6, surrogate, bed sediment smaller than 2 millimeters, wet sieved (native water), field, percent recovery",Y
+49276,"PCB congener 204, surrogate, bed sediment smaller than 2 millimeters, wet sieved (native water), field, percent recovery",Y
+49277,"PCB congener 14, surrogate, bed sediment smaller than 2 millimeters, wet sieved (native water), field, percent recovery",Y
+49326,"p,p'-DDD, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49327,"o,p'-DDE, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49332,"alpha-Endosulfan, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49339,"beta-HCH, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49355,"Toxaphene, biota, whole organism, recoverable, wet weight, micrograms per kilogram",Y
+49382,"Di-n-octyl phthalate, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49383,"Diethyl phthalate, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49384,"Dimethyl phthalate, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49391,"2,2'-Biquinoline, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49392,"Quinoline, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49394,"Isoquinoline, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49396,"2,6-Dinitrotoluene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49400,"Isophorone, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49407,"2-Chloronaphthalene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49410,"1-Methylphenanthrene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49411,"4H-Cyclopenta[def]phenanthrene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49421,"3,5-Dimethylphenol, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49422,"4-Chloro-3-methylphenol, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49424,"C8-alkylphenol, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49427,"Benzyl n-butyl phthalate, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49431,"N-Nitrosodi-n-propylamine, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49433,"N-Nitrosodiphenylamine, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49436,"Benzo[a]anthracene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49438,"1,2,4-Trichlorobenzene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49439,"1,2-Dichlorobenzene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49441,"1,3-Dichlorobenzene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49444,"Nitrobenzene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49446,"Pentachloronitrobenzene, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49455,"4-Chlorophenyl phenyl ether, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+49465,"Vanadium, biota, tissue, recoverable, dry weight, milligrams per kilogram",Y
+49467,"2-Chlorophenol, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+50278,"Escherichia coli, NA-MUG MF method, water, colony forming units per 100 milliliters",Y
+90863,"DDT plus degradates, bed sediment smaller than 2 millimeters, wet sieved (native water), recoverable, maximum summation, dry weight, micrograms per kilogram",Y
+90902,"Escherichia coli, modified m-TEC MF method, water, colony forming units per 100 milliliters",Y
+91742,"Caffeine-d9, surrogate, water, unfiltered, percent recovery",Y
+91748,"Bisphenol A-d14, surrogate, water, unfiltered, percent recovery",Y
+99822,"Set number, NWQL schedule 2101",N
+99824,"Set number, NWQL schedule 2501",N
+99825,"Set number, NWQL schedule 2502",N
+99849,"Analytical reference number, NWQL schedule 2101",N
+99850,"Analytical reference number, NWQL schedule 2501",N
+99852,"Sample weight, NWQL schedule 2101, grams",N
+99853,"Sample weight, NWQL schedule 2501, grams",N
+419,"Acid neutralizing capacity, water, unfiltered, inflection-point titration method (incremental titration method), field, milligrams per liter as calcium carbonate",Y
+34609,"2,4-Dimethylphenol, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39251,"Polychlorinated naphthalenes, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39389,"alpha-Endosulfan, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39481,"p,p'-Methoxychlor, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39758,"Mirex, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+81886,"p,p'-Ethyl-DDD, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+99430,"Carbonate, water, unfiltered, inflection-point titration method (incremental titration method), field, milligrams per liter as calcium carbonate",Y
+99440,"Bicarbonate, water, unfiltered, inflection-point titration method (incremental titration method), field, milligrams per liter",Y
+916,"Calcium, water, unfiltered, recoverable, milligrams per liter",Y
+927,"Magnesium, water, unfiltered, recoverable, milligrams per liter",Y
+929,"Sodium, water, unfiltered, recoverable, milligrams per liter",Y
+937,"Potassium, water, unfiltered, recoverable, milligrams per liter",Y
+951,"Fluoride, water, unfiltered, milligrams per liter",Y
+71895,"Mercury, suspended sediment, recoverable, micrograms per liter",Y
+417,"Acid neutralizing capacity, water, unfiltered, fixed endpoint (pH 4.5) titration, laboratory, milligrams per liter as calcium carbonate",Y
+903,"Noncarbonate hardness, water, unfiltered, lab, milligrams per liter as calcium carbonate",Y
+946,"Sulfate, water, unfiltered, milligrams per liter",Y
+81024,"Drainage area, square miles",N
+71870,"Bromide, water, filtered, milligrams per liter",Y
+4029,"Bromacil, water, filtered, recoverable, micrograms per liter",Y
+30282,"Methiocarb, water, unfiltered, recoverable, micrograms per liter",Y
+30296,"Propoxur, water, unfiltered, recoverable, micrograms per liter",Y
+38442,"Dicamba, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+38478,"Linuron, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+38482,"MCPA, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+38487,"MCPB, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+38501,"Methiocarb, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+38538,"Propoxur, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+38711,"Bentazon, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+38746,"2,4-DB, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+38811,"Fluometuron, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+38866,"Oxamyl, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+39051,"Methomyl, water, unfiltered, recoverable, micrograms per liter",Y
+39052,"Propham, water, unfiltered, recoverable, micrograms per liter",Y
+39720,"Picloram, water, unfiltered, recoverable, micrograms per liter",Y
+39732,"2,4-D, water, filtered, recoverable, micrograms per liter",Y
+39742,"2,4,5-T, water, filtered, recoverable, micrograms per liter",Y
+39750,"Carbaryl, water, unfiltered, recoverable, micrograms per liter",Y
+39762,"Silvex, water, filtered, recoverable, micrograms per liter",Y
+49235,"Triclopyr, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+49236,"Propham, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+49291,"Picloram, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+49292,"Oryzalin, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+49293,"Norflurazon, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+49294,"Neburon, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+49295,"1-Naphthol, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+49296,"Methomyl, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+49297,"Fenuron, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+49298,"Esfenvalerate, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+49299,"2-Methyl-4,6-dinitrophenol, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+49300,"Diuron, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+49301,"Dinoseb, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+49302,"Dichlorprop, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+49303,"Dichlobenil, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+49304,"DCPA monoacid, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+49305,"Clopyralid, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+49306,"Chlorothalonil, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+49308,"3-Hydroxy carbofuran, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+49309,"Carbofuran, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+49310,"Carbaryl, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+49311,"Bromoxynil, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+49312,"Aldicarb, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+49313,"Aldicarb sulfone, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+49314,"Aldicarb sulfoxide, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+49315,"Acifluorfen, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+61188,"Chloramben methyl ester, water, filtered, recoverable, micrograms per liter",Y
+70950,"Biomass/chlorophyll ratio, periphyton, number",Y
+77441,"1-Naphthol, water, unfiltered, recoverable, micrograms per liter",Y
+82052,"Dicamba, water, unfiltered, recoverable, micrograms per liter",Y
+82183,"Dichlorprop, water, unfiltered, recoverable, micrograms per liter",Y
+82584,"3-Hydroxy carbofuran, water, unfiltered, recoverable, micrograms per liter",Y
+82586,"Aldicarb sulfoxide, water, unfiltered, recoverable, micrograms per liter",Y
+82587,"Aldicarb sulfone, water, unfiltered, recoverable, micrograms per liter",Y
+82613,"Oxamyl, water, unfiltered, recoverable, micrograms per liter",Y
+82615,"Carbofuran, water, unfiltered, recoverable, micrograms per liter",Y
+82619,"Aldicarb, water, unfiltered, recoverable, micrograms per liter",Y
+90855,"Chlordane plus degradates, biota, whole organism, minimum summation, wet weight, micrograms per kilogram",Y
+99631,"Set number, NWQL labcode 0114",N
+99820,"Set number, NWQL schedule 2050",N
+99835,"BDMC, surrogate, water, unfiltered, percent recovery",Y
+99848,"Sample volume, NWQL schedule 2050, milliliters",N
+540,"Suspended solids remaining after ignition, water, unfiltered, milligrams per liter",Y
+62360,"Pheophytin a, phytoplankton, micrograms per liter",Y
+70953,"Chlorophyll a, phytoplankton, chromatographic-fluorometric method, micrograms per liter",Y
+1036,"Cobalt, suspended sediment, recoverable, micrograms per liter",Y
+49419,"2-Methyl-4,6-dinitrophenol, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+60050,"Phytoplankton, total, cells per milliliter",Y
+71820,"Density of water sample, unfiltered, grams per milliliter at 20 degrees Celsius",N
+95100,"Conversion factor, number",N
+95200,"Total cell count, water, cells per milliliter",N
+96014,,N
+96020,,N
+96067,,N
+96167,,N
+96190,,N
+96200,,N
+96202,,N
+96205,,N
+96209,,N
+96215,,N
+96218,,N
+96225,,N
+96229,,N
+96230,,N
+96238,,N
+96240,,N
+96243,,N
+96245,,N
+96252,,N
+96254,,N
+96310,,N
+96313,,N
+96327,,N
+96392,,N
+96423,,N
+96426,,N
+96430,,N
+96706,,N
+96707,,N
+96756,,N
+96759,,N
+96763,,N
+96764,,N
+96765,,N
+96777,,N
+96778,,N
+96791,,N
+96802,,N
+96806,,N
+96812,,N
+96817,,N
+98082,,N
+98090,,N
+98136,,N
+98150,,N
+98165,,N
+495,"Moisture content, fraction of dry weight, percent",N
+1108,"Aluminum, bed sediment, recoverable, dry weight, milligrams per kilogram",Y
+4005,"Metolachlor, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+4006,"Alachlor, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+4254,"Metalaxyl, water, unfiltered, recoverable, micrograms per liter",Y
+30194,"2-Methylnaphthalene, water, unfiltered, recoverable, micrograms per liter",Y
+30218,"Dichlorvos, water, unfiltered, recoverable, micrograms per liter",Y
+30234,"Bromacil, water, unfiltered, recoverable, micrograms per liter",Y
+32104,"Tribromomethane, water, unfiltered, recoverable, micrograms per liter",Y
+34220,"Anthracene, water, unfiltered, recoverable, micrograms per liter",Y
+34221,"Anthracene, water, filtered, recoverable, micrograms per liter",Y
+34247,"Benzo[a]pyrene, water, unfiltered, recoverable, micrograms per liter",Y
+34248,"Benzo[a]pyrene, water, filtered, recoverable, micrograms per liter",Y
+34288,"Tribromomethane, water, filtered, recoverable, micrograms per liter",Y
+34336,"Diethyl phthalate, water, unfiltered, recoverable, micrograms per liter",Y
+34376,"Fluoranthene, water, unfiltered, recoverable, micrograms per liter",Y
+34377,"Fluoranthene, water, filtered, recoverable, micrograms per liter",Y
+34408,"Isophorone, water, unfiltered, recoverable, micrograms per liter",Y
+34409,"Isophorone, water, filtered, recoverable, micrograms per liter",Y
+34443,"Naphthalene, water, filtered, recoverable, micrograms per liter",Y
+34461,"Phenanthrene, water, unfiltered, recoverable, micrograms per liter",Y
+34462,"Phenanthrene, water, filtered, recoverable, micrograms per liter",Y
+34466,"Phenol, water, filtered, recoverable, micrograms per liter",Y
+34469,"Pyrene, water, unfiltered, recoverable, micrograms per liter",Y
+34470,"Pyrene, water, filtered, recoverable, micrograms per liter",Y
+34475,"Tetrachloroethene, water, unfiltered, recoverable, micrograms per liter",Y
+34476,"Tetrachloroethene, water, filtered, recoverable, micrograms per liter",Y
+34571,"1,4-Dichlorobenzene, water, unfiltered, recoverable, micrograms per liter",Y
+34572,"1,4-Dichlorobenzene, water, filtered, recoverable, micrograms per liter",Y
+34694,"Phenol, water, unfiltered, recoverable, micrograms per liter",Y
+34696,"Naphthalene, water, unfiltered, recoverable, micrograms per liter",Y
+38932,"Chlorpyrifos, water, unfiltered, recoverable, micrograms per liter",Y
+39032,"Pentachlorophenol, water, unfiltered, recoverable, micrograms per liter",Y
+39046,"Simazine, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39050,"Tribufos, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39056,"Prometon, water, unfiltered, recoverable, micrograms per liter",Y
+39100,"Bis(2-ethylhexyl) phthalate, water, unfiltered, recoverable, micrograms per liter",Y
+39301,"p,p'-DDT, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39311,"p,p'-DDD, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39321,"p,p'-DDE, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+39630,"Atrazine, water, unfiltered, recoverable, micrograms per liter",Y
+39631,"Atrazine, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+50305,"Caffeine, water, filtered, recoverable, micrograms per liter",Y
+50359,"Metalaxyl, water, filtered, recoverable, micrograms per liter",Y
+51643,"Benfluralin, water, filtered, recoverable, nanograms per liter",Y
+51651,"Tetradifon, water, filtered, recoverable, nanograms per liter",Y
+51836,"Coumaphos, water, filtered, recoverable, nanograms per liter",Y
+51837,"Dithiopyr, water, filtered, recoverable, nanograms per liter",Y
+51838,"Fenpyroximate, water, filtered, recoverable, nanograms per liter",Y
+51839,"Fenthion, water, filtered, recoverable, nanograms per liter",Y
+51840,"Flufenacet, water, filtered, recoverable, nanograms per liter",Y
+51841,"Flumetralin, water, filtered, recoverable, nanograms per liter",Y
+51842,"Flutolanil, water, filtered, recoverable, nanograms per liter",Y
+51843,"Oxadiazon, water, filtered, recoverable, nanograms per liter",Y
+51844,"Prodiamine, water, filtered, recoverable, nanograms per liter",Y
+51845,"Thiazopyr, water, filtered, recoverable, nanograms per liter",Y
+51846,"Paclobutrazol, water, filtered, recoverable, nanograms per liter",Y
+51847,"Quinoxyfen, water, filtered, recoverable, nanograms per liter",Y
+51848,"Fenamidone, water, filtered, recoverable, nanograms per liter",Y
+51849,"Acibenzolar-S-methyl, water, filtered, recoverable, nanograms per liter",Y
+51850,"Picoxystrobin, water, filtered, recoverable, nanograms per liter",Y
+51851,"Fluxapyroxad, water, filtered, recoverable, nanograms per liter",Y
+51852,"Fluopicolide, water, filtered, recoverable, nanograms per liter",Y
+51853,"Cyazofamid, water, filtered, recoverable, nanograms per liter",Y
+51854,"Mandipropamid, water, filtered, recoverable, nanograms per liter",Y
+51855,"Ethaboxam, water, filtered, recoverable, nanograms per liter",Y
+51856,"Chlorantraniliprole, water, filtered, recoverable, nanograms per liter",Y
+51858,"Flonicamid, water, filtered, recoverable, nanograms per liter",Y
+51861,"Cymoxanil, water, filtered, recoverable, nanograms per liter",Y
+51862,"Cyantraniliprole, water, filtered, recoverable, nanograms per liter",Y
+51863,"Penoxsulam, water, filtered, recoverable, nanograms per liter",Y
+51864,"Fluridone, water, filtered, recoverable, nanograms per liter",Y
+51865,"Desthio-prothioconazole, water, filtered, recoverable, nanograms per liter",Y
+51866,"Tolfenpyrad, water, filtered, recoverable, nanograms per liter",Y
+61702,"3-tert-Butyl-4-hydroxyanisole, water, unfiltered, recoverable, micrograms per liter",Y
+61703,"4-Nonylphenol diethoxylate (sum of all isomers), water, unfiltered, recoverable, micrograms per liter",Y
+61704,"4-Nonylphenol monoethoxylate (sum of all isomers), water, unfiltered, recoverable, micrograms per liter",Y
+61705,"4-tert-Octylphenol diethoxylate, water, filtered, recoverable, micrograms per liter",Y
+61706,"4-tert-Octylphenol monoethoxylate, water, filtered, recoverable, micrograms per liter",Y
+61707,"Tris(dichloroisopropyl) phosphate, water, unfiltered, recoverable, micrograms per liter",Y
+61708,"Triclosan, water, unfiltered, recoverable, micrograms per liter",Y
+61944,"5-Methyl-1H-benzotriazole, water, unfiltered, recoverable, micrograms per liter",Y
+61945,"Cotinine, water, unfiltered, recoverable, micrograms per liter",Y
+61947,"N,N-Diethyl-m-toluamide (DEET), water, unfiltered, recoverable, micrograms per liter",Y
+61948,"beta-Stigmastanol, water, unfiltered, recoverable, micrograms per liter",Y
+62005,"Cotinine, water, filtered, recoverable, micrograms per liter",Y
+62046,"Fenthion, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+62047,"Methidathion, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+62054,"1-Methylnaphthalene, water, filtered, recoverable, micrograms per liter",Y
+62055,"2,6-Dimethylnaphthalene, water, filtered, recoverable, micrograms per liter",Y
+62056,"2-Methylnaphthalene, water, filtered, recoverable, micrograms per liter",Y
+62057,"3-beta-Coprostanol, water, filtered, recoverable, micrograms per liter",Y
+62058,"3-Methyl-1H-indole, water, filtered, recoverable, micrograms per liter",Y
+62059,"3-tert-Butyl-4-hydroxyanisole, water, filtered, recoverable, micrograms per liter",Y
+62060,"4-Cumylphenol, water, filtered, recoverable, micrograms per liter",Y
+62061,"4-n-Octylphenol, water, filtered, recoverable, micrograms per liter",Y
+62062,"4-tert-Octylphenol, water, filtered, recoverable, micrograms per liter",Y
+62063,"5-Methyl-1H-benzotriazole, water, filtered, recoverable, micrograms per liter",Y
+62064,"Acetophenone, water, filtered, recoverable, micrograms per liter",Y
+62065,"Acetyl hexamethyl tetrahydro naphthalene, water, filtered, recoverable, micrograms per liter",Y
+62066,"9,10-Anthraquinone, water, filtered, recoverable, micrograms per liter",Y
+62067,"Benzophenone, water, filtered, recoverable, micrograms per liter",Y
+62068,"beta-Sitosterol, water, filtered, recoverable, micrograms per liter",Y
+62070,"Camphor, water, filtered, recoverable, micrograms per liter",Y
+62071,"Carbazole, water, filtered, recoverable, micrograms per liter",Y
+62072,"Cholesterol, water, filtered, recoverable, micrograms per liter",Y
+62073,"D-Limonene, water, filtered, recoverable, micrograms per liter",Y
+62075,"Hexahydrohexamethyl cyclopentabenzopyran, water, filtered, recoverable, micrograms per liter",Y
+62076,"Indole, water, filtered, recoverable, micrograms per liter",Y
+62077,"Isoborneol, water, filtered, recoverable, micrograms per liter",Y
+62078,"Isopropylbenzene, water, filtered, recoverable, micrograms per liter",Y
+62079,"Isoquinoline, water, filtered, recoverable, micrograms per liter",Y
+62080,"Menthol, water, filtered, recoverable, micrograms per liter",Y
+62081,"Methyl salicylate, water, filtered, recoverable, micrograms per liter",Y
+62082,"N,N-Diethyl-m-toluamide (DEET), water, filtered, recoverable, micrograms per liter",Y
+62083,"4-Nonylphenol diethoxylate (sum of all isomers), water, filtered, recoverable, micrograms per liter",Y
+62084,"p-Cresol, water, filtered, recoverable, micrograms per liter",Y
+62085,"4-Nonylphenol (sum of all isomers), water, filtered, recoverable, micrograms per liter",Y
+62086,"beta-Stigmastanol, water, filtered, recoverable, micrograms per liter",Y
+62087,"Tris(2-chloroethyl) phosphate, water, filtered, recoverable, micrograms per liter",Y
+62088,"Tris(dichloroisopropyl) phosphate, water, filtered, recoverable, micrograms per liter",Y
+62089,"Tributyl phosphate, water, filtered, recoverable, micrograms per liter",Y
+62090,"Triclosan, water, filtered, recoverable, micrograms per liter",Y
+62091,"Triethyl citrate, water, filtered, recoverable, micrograms per liter",Y
+62092,"Triphenyl phosphate, water, filtered, recoverable, micrograms per liter",Y
+62093,"Tris(2-butoxyethyl) phosphate, water, filtered, recoverable, micrograms per liter",Y
+62461,"Organic carbon, bed sediment, dry weight, percent",Y
+62485,"4-tert-Octylphenol monoethoxylate, water, unfiltered, recoverable, micrograms per liter",Y
+62486,"4-tert-Octylphenol diethoxylate, water, unfiltered, recoverable, micrograms per liter",Y
+62805,"2,6-Dimethylnaphthalene, water, unfiltered, recoverable, micrograms per liter",Y
+62806,"3-beta-Coprostanol, water, unfiltered, recoverable, micrograms per liter",Y
+62807,"3-Methyl-1H-indole, water, unfiltered, recoverable, micrograms per liter",Y
+62808,"4-Cumylphenol, water, unfiltered, recoverable, micrograms per liter",Y
+62809,"4-n-Octylphenol, water, unfiltered, recoverable, micrograms per liter",Y
+62810,"4-tert-Octylphenol, water, unfiltered, recoverable, micrograms per liter",Y
+62811,"Acetophenone, water, unfiltered, recoverable, micrograms per liter",Y
+62812,"Acetyl hexamethyl tetrahydro naphthalene, water, unfiltered, recoverable, micrograms per liter",Y
+62813,"9,10-Anthraquinone, water, unfiltered, recoverable, micrograms per liter",Y
+62814,"Benzophenone, water, unfiltered, recoverable, micrograms per liter",Y
+62815,"beta-Sitosterol, water, unfiltered, recoverable, micrograms per liter",Y
+62816,"Bisphenol A, water, unfiltered, recoverable, micrograms per liter",Y
+62817,"Camphor, water, unfiltered, recoverable, micrograms per liter",Y
+62818,"Cholesterol, water, unfiltered, recoverable, micrograms per liter",Y
+62819,"D-Limonene, water, unfiltered, recoverable, micrograms per liter",Y
+62823,"Hexahydrohexamethyl cyclopentabenzopyran, water, unfiltered, recoverable, micrograms per liter",Y
+62824,"Indole, water, unfiltered, recoverable, micrograms per liter",Y
+62825,"Isoborneol, water, unfiltered, recoverable, micrograms per liter",Y
+62826,"Isoquinoline, water, unfiltered, recoverable, micrograms per liter",Y
+62827,"Menthol, water, unfiltered, recoverable, micrograms per liter",Y
+62828,"Methyl salicylate, water, unfiltered, recoverable, micrograms per liter",Y
+62829,"4-Nonylphenol (sum of all isomers), water, unfiltered, recoverable, micrograms per liter",Y
+62830,"Tris(2-butoxyethyl) phosphate, water, unfiltered, recoverable, micrograms per liter",Y
+62831,"Tris(2-chloroethyl) phosphate, water, unfiltered, recoverable, micrograms per liter",Y
+62832,"Tributyl phosphate, water, unfiltered, recoverable, micrograms per liter",Y
+62833,"Triethyl citrate, water, unfiltered, recoverable, micrograms per liter",Y
+62834,"Triphenyl phosphate, water, unfiltered, recoverable, micrograms per liter",Y
+62840,"Caffeine-13C, surrogate, NWQL schedule 4433 and labcode 8033 (WWWW), water, unfiltered, percent recovery",Y
+62841,"Decafluorobiphenyl, surrogate, NWQL schedule 4433 and labcode 8033 (WWWW), water, unfiltered, percent recovery",Y
+62842,"Fluoranthene-d10, surrogate, NWQL schedule 4433 and labcode 8033 (WWWW), water, unfiltered, percent recovery",Y
+62902,"Trifluralin, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+62904,"Chlorothalonil, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+62905,"DCPA, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+63145,"3,4-Dichlorophenyl isocyanate, water, unfiltered, recoverable, micrograms per liter",Y
+63147,"BDE congener 47, water, unfiltered, recoverable, micrograms per liter",Y
+63172,"3-tert-Butyl-4-hydroxyanisole, solids, recoverable, dry weight, micrograms per kilogram",Y
+63235,"Tris(dichloroisopropyl) phosphate, solids, recoverable, dry weight, micrograms per kilogram",Y
+64150,"Azinphos-methyl, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+64151,"Bifenthrin, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+64152,"Butylate, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+64153,"Carbaryl, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+64154,"Carbofuran, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+64155,"Cycloate, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+64156,"Cypermethrin, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+64158,"EPTC, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+64159,"Esfenvalerate, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+64160,"Ethalfluralin, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+64161,"Hexazinone, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+64163,"Molinate, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+64164,"Napropamide, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+64165,"Oxyfluorfen, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+64166,"Pebulate, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+64167,"Pendimethalin, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+64168,"Permethrin, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+64169,"Phosmet, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+64170,"Piperonyl butoxide, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+64171,"Thiobencarb, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+64847,"Arsenic, bed sediment, recoverable, dry weight, milligrams per kilogram",Y
+65071,"Chlorothalonil, water, filtered, recoverable, nanograms per liter",Y
+65073,"Cycloate, water, filtered, recoverable, nanograms per liter",Y
+65074,"Cyfluthrin, water, filtered, recoverable, nanograms per liter",Y
+65075,"Cypermethrin, water, filtered, recoverable, nanograms per liter",Y
+65076,"DCPA, water, filtered, recoverable, nanograms per liter",Y
+65077,"Deltamethrin, water, filtered, recoverable, nanograms per liter",Y
+65081,"Esfenvalerate, water, filtered, recoverable, nanograms per liter",Y
+65082,"Ethalfluralin, water, filtered, recoverable, nanograms per liter",Y
+65083,"Fenpropathrin, water, filtered, recoverable, nanograms per liter",Y
+65089,"Methyl parathion, water, filtered, recoverable, nanograms per liter",Y
+65092,"Napropamide, water, filtered, recoverable, nanograms per liter",Y
+65094,"p,p'-DDD, water, filtered, recoverable, nanograms per liter",Y
+65095,"p,p'-DDE, water, filtered, recoverable, nanograms per liter",Y
+65096,"p,p'-DDT, water, filtered, recoverable, nanograms per liter",Y
+65097,"Pebulate, water, filtered, recoverable, nanograms per liter",Y
+65099,"Permethrin, water, filtered, recoverable, nanograms per liter",Y
+65100,"Phenothrin, water, filtered, recoverable, nanograms per liter",Y
+65101,"Phosmet, water, filtered, recoverable, nanograms per liter",Y
+65104,"Resmethrin, water, filtered, recoverable, nanograms per liter",Y
+65106,"tau-Fluvalinate, water, filtered, recoverable, nanograms per liter",Y
+65108,"Trifluralin, water, filtered, recoverable, nanograms per liter",Y
+65109,"Cyfluthrin, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+65110,"Deltamethrin, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+65111,"Fenpropathrin, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+65112,"Phenothrin, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+65113,"Resmethrin, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+65114,"tau-Fluvalinate, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+66584,"3,4-Dichloroaniline, water, filtered, recoverable, nanograms per liter",Y
+66585,"3,4-Dichloroaniline, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+66586,"Allethrin, water, filtered, recoverable, nanograms per liter",Y
+66588,"Allethrin, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+66591,"Azoxystrobin, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+66593,"Cyproconazole, water, filtered, recoverable, nanograms per liter",Y
+66595,"Cyproconazole, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+66606,"Fipronil, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+66609,"Desulfinylfipronil, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+66612,"Fipronil sulfide, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+66615,"Fipronil sulfone, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+66617,"Iprodione, water, filtered, recoverable, nanograms per liter",Y
+66618,"Iprodione, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+66622,"Metconazole, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+66623,"Methoprene, water, filtered, recoverable, nanograms per liter",Y
+66625,"Methoprene, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+66634,"Myclobutanil, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+66637,"Pentachloroanisole, water, filtered, recoverable, nanograms per liter",Y
+66639,"Pentachloronitrobenzene, water, filtered, recoverable, nanograms per liter",Y
+66642,"Propanil, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+66645,"Propiconazole, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+66648,"Pyraclostrobin, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+66650,"Tebuconazole, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+66656,"Tetraconazole, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+66657,"Tetramethrin, water, filtered, recoverable, nanograms per liter",Y
+66659,"Tetramethrin, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+66662,"Trifloxystrobin, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+67161,"Thiabendazole, water, filtered, recoverable, nanograms per liter",Y
+67536,"3,5-Dichloroaniline, water, filtered, recoverable, nanograms per liter",Y
+67538,"3,5-Dichloroaniline, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+67550,"Boscalid, water, filtered, recoverable, nanograms per liter",Y
+67552,"Boscalid, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+67562,"Clomazone, water, filtered, recoverable, nanograms per liter",Y
+67564,"Clomazone, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+67574,"Cyprodinil, water, filtered, recoverable, nanograms per liter",Y
+67576,"Cyprodinil, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+67582,"Difenoconazole, water, filtered, recoverable, nanograms per liter",Y
+67584,"Difenoconazole, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+67604,"Etofenprox, water, filtered, recoverable, nanograms per liter",Y
+67606,"Etofenprox, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+67609,"Famoxadone, water, filtered, recoverable, nanograms per liter",Y
+67611,"Famoxadone, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+67613,"Fenarimol, water, filtered, recoverable, nanograms per liter",Y
+67615,"Fenarimol, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+67618,"Fenbuconazole, water, filtered, recoverable, nanograms per liter",Y
+67620,"Fenbuconazole, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+67622,"Fenhexamid, water, filtered, recoverable, nanograms per liter",Y
+67624,"Fenhexamid, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+67636,"Fluazinam, water, filtered, recoverable, nanograms per liter",Y
+67638,"Fluazinam, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+67640,"Fludioxonil, water, filtered, recoverable, nanograms per liter",Y
+67642,"Fludioxonil, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+67645,"Fluoxastrobin, water, filtered, recoverable, nanograms per liter",Y
+67647,"Fluoxastrobin, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+67649,"Flusilazole, water, filtered, recoverable, nanograms per liter",Y
+67651,"Flusilazole, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+67653,"Flutriafol, water, filtered, recoverable, nanograms per liter",Y
+67655,"Flutriafol, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+67662,"Imazalil, water, filtered, recoverable, nanograms per liter",Y
+67664,"Imazalil, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+67672,"Kresoxim-methyl, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+67708,"Propyzamide, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+67717,"Pyrimethanil, water, filtered, recoverable, nanograms per liter",Y
+67719,"Pyrimethanil, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+67731,"Tefluthrin, water, filtered, recoverable, nanograms per liter",Y
+67733,"Tefluthrin, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+67741,"Triadimefon, water, filtered, recoverable, nanograms per liter",Y
+67743,"Triadimefon, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+67746,"Triadimenol, water, filtered, recoverable, nanograms per liter",Y
+67748,"Triadimenol, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+67753,"Triflumizole, water, filtered, recoverable, nanograms per liter",Y
+67755,"Triflumizole, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+67758,"Triticonazole, water, filtered, recoverable, nanograms per liter",Y
+67760,"Triticonazole, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+67765,"Vinclozolin, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+67768,"Zoxamide, water, filtered, recoverable, nanograms per liter",Y
+67770,"Zoxamide, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+68221,"Clothianidin, water, filtered, recoverable, nanograms per liter",Y
+68245,"Thiamethoxam, water, filtered, recoverable, nanograms per liter",Y
+68302,"Acetamiprid, water, filtered, recoverable, nanograms per liter",Y
+68322,"Captan, water, filtered, recoverable, nanograms per liter",Y
+68324,"Captan, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+68354,"Cyhalothrin (all isomers), water, filtered, recoverable, nanograms per liter",Y
+68356,"Cyhalothrin (all isomers), bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+68360,"Cyhalofop butyl, water, filtered, recoverable, nanograms per liter",Y
+68373,"Dimethomorph, water, filtered, recoverable, nanograms per liter",Y
+68375,"Dimethomorph, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+68379,"Dinotefuran, water, filtered, recoverable, nanograms per liter",Y
+68439,"Metalaxyl, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+68485,"Thiacloprid, water, filtered, recoverable, nanograms per liter",Y
+68655,"Novaluron, water, filtered, recoverable, nanograms per liter",Y
+68876,"2-Chloro-2',6'-diethylacetanilide, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+68878,"Benfluralin, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+68880,"Butralin, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+68882,"Coumaphos, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+68884,"Cyhalofop butyl, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+68886,"Dithiopyr, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+68888,"Fenpyroximate, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+68891,"Desulfinylfipronil amide, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+68893,"Flufenacet, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+68895,"Flumetralin, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+68897,"Flutolanil, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+68899,"Indoxacarb, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+68901,"Novaluron, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+68903,"Oxadiazon, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+68905,"Prodiamine, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+68907,"Propargite, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+68909,"Pyridaben, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+68911,"Tebupirimfos oxygen analog, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+68913,"Tebupirimfos, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+68915,"Tetradifon, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+68917,"Thiazopyr, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+68919,"Triallate, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+72005,"Sample source, code",N
+77146,"p-Cresol, water, unfiltered, recoverable, micrograms per liter",Y
+77223,"Isopropylbenzene, water, unfiltered, recoverable, micrograms per liter",Y
+77571,"Carbazole, water, unfiltered, recoverable, micrograms per liter",Y
+78688,"Prometryn, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+81404,"Chlorpyrifos, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+81436,"Caffeine, water, unfiltered, recoverable, micrograms per liter",Y
+81696,"1-Methylnaphthalene, water, unfiltered, recoverable, micrograms per liter",Y
+82402,"Prometon, bed sediment, recoverable, dry weight, micrograms per kilogram",Y
+82612,"Metolachlor, water, unfiltered, recoverable, micrograms per liter",Y
+90851,"Trihalomethanes, water, unfiltered, minimum summation, micrograms per liter",Y
+91741,"Caffeine-d9, surrogate, water, filtered, percent recovery",Y
+99585,"Decafluorobiphenyl, surrogate, NWQL schedule/labcode 2033/8033, water, filtered, percent recovery",Y
+99586,"Fluoranthene-d10, surrogate, NWQL schedule/labcode 2033/8033, water, filtered, percent recovery",Y
+99587,"Sample volume, NWQL wastewater method, water, filtered, milliliters",Y
+99963,"Sample volume, NWQL schedule 4433 and labcode 8033 (WWWW), milliliters",Y
+905,"Noncarbonate hardness, water, filtered, lab, milligrams per liter as calcium carbonate",Y
+29801,"Alkalinity, water, filtered, fixed endpoint (pH 4.5) titration, laboratory, milligrams per liter as calcium carbonate",Y
+31648,"Escherichia coli, m-TEC MF method, water, colonies per 100 milliliters",Y
+31649,"Enterococci, m-E MF method, water, colony forming units per 100 milliliters",Y
+49274,"Titanium, bed sediment smaller than 62.5 microns, wet sieved (native water), field, recoverable, dry weight, percent",Y
+50009,"Alachlor sulfonic acid, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+50468,"Escherichia coli, defined substrate test method (DSTM), water, most probable number per 100 milliliters",Y
+61029,"Acetochlor sulfonic acid, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+61030,"Acetochlor oxanilic acid, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+61031,"Alachlor oxanilic acid, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+61043,"Metolachlor sulfonic acid, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+61044,"Metolachlor oxanilic acid, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+61951,"Dimethenamid sulfonic acid, water, filtered, recoverable, micrograms per liter",Y
+61952,"Flufenacet sulfonic acid, water, filtered, recoverable, micrograms per liter",Y
+62482,"Dimethenamid oxanilic acid, water, filtered, recoverable, micrograms per liter",Y
+62483,"Flufenacet oxanilic acid, water, filtered, recoverable, micrograms per liter",Y
+80282,"Bed sediment, fall diameter (deionized water), percent smaller than 0.016 millimeters",Y
+80283,"Bed sediment, fall diameter (deionized water), percent smaller than 0.031 millimeters",Y
+80293,"Bed sediment, fall diameter (deionized water), percent smaller than 0.008 millimeters",Y
+80294,"Bed sediment, fall diameter (deionized water), percent smaller than 0.002 millimeters",Y
+90854,"DDT plus degradates, biota, whole organism, minimum summation, wet weight, micrograms per kilogram",Y
+99807,"Set number, NWQL schedule 1331",N
+71835,"Oxygen consumed, water, filtered, milligrams per liter",Y
+71840,"Oxygen consumed, water, unfiltered, milligrams per liter",Y
+50285,"Methylmercury, water, filtered, recoverable, nanograms per liter",Y
+50287,"Mercury, water, filtered, nanograms per liter",Y
+62976,"Mercury, suspended sediment, total, nanograms per liter",Y
+62977,"Methylmercury, suspended sediment, total, nanograms per liter",Y
+9,"Location in cross section, distance from left bank looking downstream, feet",N
+99133,"Nitrate plus nitrite, water, in situ, milligrams per liter as nitrogen",Y
+63041,"delta oxygen-18/oxygen-16 of nitrate, water, filtered, per mil",Y
+82082,"delta hydrogen-2/hydrogen-1, water, unfiltered, per mil",Y
+82085,"delta oxygen-18/oxygen-16, water, unfiltered, per mil",Y
+82690,"delta nitrogen-15/nitrogen-14 of nitrate, water, filtered, per mil",Y
+39024,"Propazine, water, unfiltered, recoverable, micrograms per liter",Y
+39030,"Trifluralin, water, unfiltered, recoverable, micrograms per liter",Y
+39034,"p,p'-Ethyl-DDD, water, unfiltered, recoverable, micrograms per liter",Y
+39054,"Simetryn, water, unfiltered, recoverable, micrograms per liter",Y
+39055,"Simazine, water, unfiltered, recoverable, micrograms per liter",Y
+39057,"Prometryn, water, unfiltered, recoverable, micrograms per liter",Y
+39388,"alpha-Endosulfan, water, unfiltered, recoverable, micrograms per liter",Y
+39755,"Mirex, water, unfiltered, recoverable, micrograms per liter",Y
+77825,"Alachlor, water, unfiltered, recoverable, micrograms per liter",Y
+81757,"Cyanazine, water, unfiltered, recoverable, micrograms per liter",Y
+82184,"Ametryn, water, unfiltered, recoverable, micrograms per liter",Y
+82611,"Metribuzin, water, unfiltered, recoverable, micrograms per liter",Y
+96197,,N
+96226,,N
+96227,,N
+96326,,N
+96387,,N
+96388,,N
+96454,,N
+96708,,N
+98075,,N
+98093,,N
+99445,"Carbonate, water, unfiltered, inflection-point titration method (incremental titration method), field, milligrams per liter",Y
+7012,"Tritium in water molecules, tritium units",Y
+7013,"Tritium in water molecules counting error, tritium units",Y
+9503,"Radium-226, water, filtered, picocuries per liter",Y
+9511,"Radium-226, water, filtered, radon method, picocuries per liter",Y
+80020,"Uranium, water, filtered, extraction fluorometric method, micrograms per liter",Y
+340,"Chemical oxygen demand, high level, water, unfiltered, milligrams per liter",Y
+550,"Oil and grease, water, unfiltered, recoverable, milligrams per liter",Y
+4036,"Prometryn, water, filtered, recoverable, micrograms per liter",Y
+4038,"2-Chloro-6-ethylamino-4-amino-s-triazine, water, filtered, recoverable, micrograms per liter",Y
+30210,"Depth to water level, below land surface datum (LSD), meters",Y
+32230,"Chlorophyll a, phytoplankton, spectrophotometric method, uncorrected, micrograms per liter",Y
+32231,"Chlorophyll b, phytoplankton, spectrophotometric method, micrograms per liter",Y
+38401,"Ametryn, water, filtered, recoverable, micrograms per liter",Y
+38535,"Propazine, water, filtered, recoverable, micrograms per liter",Y
+49425,"Pentachlorophenol, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
+70954,"Chlorophyll b, phytoplankton, chromatographic-fluorometric method, micrograms per liter",Y
+72015,"Depth to top of sample interval, feet below land surface datum",N
+72016,"Depth to bottom of sample interval, feet below land surface datum",N
+72019,"Depth to water level, feet below land surface",N
+80156,"Total sediment discharge, short tons per day",Y
+99898,"Sample login ID, Ocala Laboratory, number",N
+99899,"Julian date sample logged into the Ocala Laboratory, yyddd",N
+71865,"Iodide, water, filtered, milligrams per liter",Y
+449,"Bicarbonate, water, unfiltered, inflection-point titration method (incremental titration method), laboratory, milligrams per liter",Y
+1047,"Iron(II), water, filtered, micrograms per liter",Y
+1,"Location in cross section, distance from right bank looking upstream, feet",N
+1008,"Barium, bed sediment, recoverable, dry weight, milligrams per kilogram",Y
+1098,"Antimony, bed sediment, total digestion, dry weight, milligrams per kilogram",Y
+1153,"Titanium, bed sediment, total digestion, dry weight, milligrams per kilogram",Y
+1375,"Aluminum, bed sediment, total digestion, dry weight, milligrams per kilogram",Y
+1376,"Barium, bed sediment, total digestion, dry weight, milligrams per kilogram",Y
+1377,"Beryllium, bed sediment, total digestion, dry weight, milligrams per kilogram",Y
+1378,"Cadmium, bed sediment, total digestion, dry weight, milligrams per kilogram",Y
+1379,"Chromium, bed sediment, total digestion, dry weight, milligrams per kilogram",Y
+1380,"Cobalt, bed sediment, total digestion, dry weight, milligrams per kilogram",Y
+1381,"Copper, bed sediment, total digestion, dry weight, milligrams per kilogram",Y
+30241,"Inorganic carbon, bed sediment, dry weight, percent",Y
+30243,"Organic carbon, bed sediment, dry weight, percent",Y
+30272,"Lead, bed sediment, dry weight, milligrams per kilogram",Y
+30274,"Lithium, bed sediment, dry weight, milligrams per kilogram",Y
+30278,"Manganese, bed sediment, dry weight, milligrams per kilogram",Y
+30280,"Mercury, bed sediment, dry weight, milligrams per kilogram",Y
+30283,"Molybdenum, bed sediment, dry weight, milligrams per kilogram",Y
+30287,"Nickel, bed sediment, dry weight, milligrams per kilogram",Y
+30289,"Niobium, bed sediment, dry weight, milligrams per kilogram",Y
+30297,"Scandium, bed sediment, dry weight, milligrams per kilogram",Y
+30301,"Silver, bed sediment, dry weight, milligrams per kilogram",Y
+30305,"Strontium, bed sediment, dry weight, milligrams per kilogram",Y
+30309,"Tantalum, bed sediment, dry weight, milligrams per kilogram",Y
+30312,"Thorium, bed sediment, dry weight, milligrams per kilogram",Y
+30320,"Uranium, bed sediment, dry weight, milligrams per kilogram",Y
+30322,"Vanadium, bed sediment, dry weight, milligrams per kilogram",Y
+30327,"Yttrium, bed sediment, dry weight, milligrams per kilogram",Y
+30329,"Zinc, bed sediment, dry weight, milligrams per kilogram",Y
+32002,"Sample volume, milliliters",N
+32101,"Bromodichloromethane, water, unfiltered, recoverable, micrograms per liter",Y
+32102,"Tetrachloromethane, water, unfiltered, recoverable, micrograms per liter",Y
+32103,"1,2-Dichloroethane, water, unfiltered, recoverable, micrograms per liter",Y
+32105,"Dibromochloromethane, water, unfiltered, recoverable, micrograms per liter",Y
+32106,"Trichloromethane, water, unfiltered, recoverable, micrograms per liter",Y
+34010,"Toluene, water, unfiltered, recoverable, micrograms per liter",Y
+34030,"Benzene, water, unfiltered, recoverable, micrograms per liter",Y
+34301,"Chlorobenzene, water, unfiltered, recoverable, micrograms per liter",Y
+34371,"Ethylbenzene, water, unfiltered, recoverable, micrograms per liter",Y
+34386,"Hexachlorocyclopentadiene, water, unfiltered, recoverable, micrograms per liter",Y
+34413,"Bromomethane, water, unfiltered, recoverable, micrograms per liter",Y
+34418,"Chloromethane, water, unfiltered, recoverable, micrograms per liter",Y
+34423,"Dichloromethane, water, unfiltered, recoverable, micrograms per liter",Y
+34447,"Nitrobenzene, water, unfiltered, recoverable, micrograms per liter",Y
+34480,"Thallium, bed sediment, total digestion, dry weight, milligrams per kilogram",Y
+34496,"1,1-Dichloroethane, water, unfiltered, recoverable, micrograms per liter",Y
+34501,"1,1-Dichloroethene, water, unfiltered, recoverable, micrograms per liter",Y
+34506,"1,1,1-Trichloroethane, water, unfiltered, recoverable, micrograms per liter",Y
+34511,"1,1,2-Trichloroethane, water, unfiltered, recoverable, micrograms per liter",Y
+34536,"1,2-Dichlorobenzene, water, unfiltered, recoverable, micrograms per liter",Y
+34541,"1,2-Dichloropropane, water, unfiltered, recoverable, micrograms per liter",Y
+34546,"trans-1,2-Dichloroethene, water, unfiltered, recoverable, micrograms per liter",Y
+34551,"1,2,4-Trichlorobenzene, water, unfiltered, recoverable, micrograms per liter",Y
+34699,"trans-1,3-Dichloropropene, water, unfiltered, recoverable, micrograms per liter",Y
+34704,"cis-1,3-Dichloropropene, water, unfiltered, recoverable, micrograms per liter",Y
+39175,"Vinyl chloride, water, unfiltered, recoverable, micrograms per liter",Y
+39180,"Trichloroethene, water, unfiltered, recoverable, micrograms per liter",Y
+45013,"Isopropyl acetate, water, unfiltered, recoverable, micrograms per liter",Y
+45028,"Chlorodifluoromethane, water, unfiltered, recoverable, micrograms per liter",Y
+49538,"1,1-Difluoroethane, water, unfiltered, recoverable, micrograms per liter",Y
+50284,"Methylmercury, water, unfiltered, recoverable, nanograms per liter",Y
+50286,"Mercury, water, unfiltered, nanograms per liter",Y
+50624,"Absorbance, 254 nm, water, filtered, absorbance units per centimeter",Y
+50985,"1,2-Dichloro-1,1,2,2-tetrafluoroethane, water, unfiltered, recoverable, micrograms per liter",Y
+62174,"2,2-Dichloro-1,1,1-trifluoroethane, water, unfiltered, recoverable, micrograms per liter",Y
+62359,"Pheophytin a, periphyton, milligrams per square meter",Y
+62456,"Calcium, bed sediment, dry weight, milligrams per kilogram",Y
+62457,"Potassium, bed sediment, dry weight, milligrams per kilogram",Y
+62458,"Magnesium, bed sediment, dry weight, milligrams per kilogram",Y
+62459,"Sodium, bed sediment, dry weight, milligrams per kilogram",Y
+62463,"Carbon [inorganic plus organic], bed sediment, dry weight, percent",Y
+62465,"Bismuth, bed sediment, dry weight, milligrams per kilogram",Y
+62466,"Cerium, bed sediment, dry weight, milligrams per kilogram",Y
+62468,"Gallium, bed sediment, dry weight, milligrams per kilogram",Y
+62470,"Lanthanum, bed sediment, dry weight, milligrams per kilogram",Y
+62475,"Rubidium, bed sediment, dry weight, milligrams per kilogram",Y
+62477,"Cesium, bed sediment, dry weight, milligrams per kilogram",Y
+62597,"Sample weight, PAH method, bed sediment, grams",Y
+62649,"Aminomethylphosphonic acid, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+62721,"Glufosinate, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+62722,"Glyphosate, water, filtered (0.7 micron glass fiber filter), recoverable, micrograms per liter",Y
+62835,"Isobutyl alcohol-d6, surrogate, water, unfiltered, percent recovery",Y
+63162,"Specific UV Absorbance, 254 nm, water, filtered, 1 cm path length, calculated, liter per (milligram of dissolved organic carbon * meter)",Y
+63610,"Benzo[a]anthracene, solids, recoverable, dry weight, micrograms per kilogram",Y
+63631,"Hexachlorobenzene, solids, recoverable, dry weight, micrograms per kilogram",Y
+63650,"Pentachloronitrobenzene, solids, recoverable, dry weight, micrograms per kilogram",Y
+64095,"1,2,4-Trichlorobenzene, solids, recoverable, dry weight, micrograms per kilogram",Y
+64097,"1,2-Dimethylnaphthalene, solids, recoverable, dry weight, micrograms per kilogram",Y
+64099,"1,6-Dimethylnaphthalene, solids, recoverable, dry weight, micrograms per kilogram",Y
+64100,"1-Methyl-9H-fluorene, solids, recoverable, dry weight, micrograms per kilogram",Y
+64101,"1-Methylphenanthrene, solids, recoverable, dry weight, micrograms per kilogram",Y
+64102,"1-Methylpyrene, solids, recoverable, dry weight, micrograms per kilogram",Y
+64103,"2,3,6-Trimethylnaphthalene, solids, recoverable, dry weight, micrograms per kilogram",Y
+64104,"2-Ethylnaphthalene, solids, recoverable, dry weight, micrograms per kilogram",Y
+64105,"2-Methylanthracene, solids, recoverable, dry weight, micrograms per kilogram",Y
+64106,"4H-Cyclopenta[def]phenanthrene, solids, recoverable, dry weight, micrograms per kilogram",Y
+64107,"9H-Fluorene, solids, recoverable, dry weight, micrograms per kilogram",Y
+64108,"Acenaphthene, solids, recoverable, dry weight, micrograms per kilogram",Y
+64109,"Acenaphthylene, solids, recoverable, dry weight, micrograms per kilogram",Y
+64111,"Benzo[b]fluoranthene, solids, recoverable, dry weight, micrograms per kilogram",Y
+64112,"Benzo[e]pyrene, solids, recoverable, dry weight, micrograms per kilogram",Y
+64113,"Benzo[ghi]perylene, solids, recoverable, dry weight, micrograms per kilogram",Y
+64114,"Benzo[k]fluoranthene, solids, recoverable, dry weight, micrograms per kilogram",Y
+64115,"Chrysene, solids, recoverable, dry weight, micrograms per kilogram",Y
+64116,"Dibenzo[a,h]anthracene, solids, recoverable, dry weight, micrograms per kilogram",Y
+64117,"Dibenzothiophene, solids, recoverable, dry weight, micrograms per kilogram",Y
+64118,"Indeno[1,2,3-cd]pyrene, solids, recoverable, dry weight, micrograms per kilogram",Y
+64119,"Pentachloroanisole, solids, recoverable, dry weight, micrograms per kilogram",Y
+64120,"Perylene, solids, recoverable, dry weight, micrograms per kilogram",Y
+64121,"Phenanthridine, solids, recoverable, dry weight, micrograms per kilogram",Y
+68066,"1-Methoxy-4-(2-propenyl)benzene, water, unfiltered, recoverable, micrograms per liter",Y
+68680,"Pymetrozine, water, filtered, recoverable, nanograms per liter",Y
+68726,"1,3-Butadiene, water, unfiltered, recoverable, micrograms per liter",Y
+68728,"2-Ethoxyethyl acetate, water, unfiltered, recoverable, micrograms per liter",Y
+68729,"2-Propen-1-ol, water, unfiltered, recoverable, micrograms per liter",Y
+68730,"alpha-Terpineol, water, unfiltered, recoverable, micrograms per liter",Y
+68732,"Butanal, water, unfiltered, recoverable, micrograms per liter",Y
+68733,"trans-Crotonaldehyde, water, unfiltered, recoverable, micrograms per liter",Y
+69052,"Bed sediment, sieve diameter, percent smaller than 25 millimeters",Y
+76997,"Acetonitrile, water, unfiltered, recoverable, micrograms per liter",Y
+77032,"Methyl acetate, water, unfiltered, recoverable, micrograms per liter",Y
+77034,"1-Butanol, water, unfiltered, recoverable, micrograms per liter",Y
+77035,"tert-Butyl alcohol, water, unfiltered, recoverable, micrograms per liter",Y
+77041,"Carbon disulfide, water, unfiltered, micrograms per liter",Y
+77061,"n-Pentanal, water, unfiltered, recoverable, micrograms per liter",Y
+77076,"2-Nitropropane, water, unfiltered, recoverable, micrograms per liter",Y
+77093,"cis-1,2-Dichloroethene, water, unfiltered, recoverable, micrograms per liter",Y
+77113,"4-Methyl-2-pentanol, water, unfiltered, recoverable, micrograms per liter",Y
+77119,"Dichlorofluoromethane, water, unfiltered, recoverable, micrograms per liter",Y
+77128,"Styrene, water, unfiltered, recoverable, micrograms per liter",Y
+77135,"o-Xylene, water, unfiltered, recoverable, micrograms per liter",Y
+77179,"5-Methyl-2-hexanone, water, unfiltered, recoverable, micrograms per liter",Y
+77201,"2-Methylpropyl acetate, water, unfiltered, recoverable, micrograms per liter",Y
+77222,"1,2,4-Trimethylbenzene, water, unfiltered, recoverable, micrograms per liter",Y
+77224,"n-Propylbenzene, water, unfiltered, recoverable, micrograms per liter",Y
+77297,"Bromochloromethane, water, unfiltered, recoverable, micrograms per liter",Y
+77310,"1-Octanol, water, unfiltered, recoverable, micrograms per liter",Y
+77323,"1,2,3,4-Tetrahydronaphthalene, water, unfiltered, recoverable, micrograms per liter",Y
+77350,"sec-Butylbenzene, water, unfiltered, recoverable, micrograms per liter",Y
+77419,"2,6-Dimethyl-4-heptanone, water, unfiltered, recoverable, micrograms per liter",Y
+77443,"1,2,3-Trichloropropane, water, unfiltered, recoverable, micrograms per liter",Y
+77548,"Chloropicrin, water, unfiltered, recoverable, micrograms per liter",Y
+77562,"1,1,1,2-Tetrachloroethane, water, unfiltered, recoverable, micrograms per liter",Y
+77651,"1,2-Dibromoethane, water, unfiltered, recoverable, micrograms per liter",Y
+78032,"Methyl tert-butyl ether, water, unfiltered, recoverable, micrograms per liter",Y
+78200,"N-Nitrosodiethylamine, water, unfiltered, recoverable, micrograms per liter",Y
+80165,"Bed sediment, sieve diameter, percent smaller than 0.125 millimeters",N
+80166,"Bed sediment, sieve diameter, percent smaller than 0.25 millimeters",N
+80167,"Bed sediment, sieve diameter, percent smaller than 0.5 millimeters",N
+80168,"Bed sediment, sieve diameter, percent smaller than 1 millimeter",N
+80169,"Bed sediment, sieve diameter, percent smaller than 2 millimeters",N
+80336,"1,1-Dichloro-2-propanone, water, unfiltered, recoverable, micrograms per liter",Y
+81563,"Butane, water, unfiltered, recoverable, micrograms per liter",Y
+81578,"Dimethoxymethane, water, unfiltered, recoverable, micrograms per liter",Y
+81582,"1,4-Dioxane, water, unfiltered, recoverable, micrograms per liter",Y
+81583,"1,3-Dioxolane, water, unfiltered, recoverable, micrograms per liter",Y
+81585,"Ethyl acetate, water, unfiltered, recoverable, micrograms per liter",Y
+81590,"Hexane, water, unfiltered, recoverable, micrograms per liter",Y
+81604,"n-Pentane, water, unfiltered, recoverable, micrograms per liter",Y
+82625,"1,2-Dibromo-3-chloropropane, water, unfiltered, recoverable, micrograms per liter",Y
+84174,"POCIS sorbent type, code",Y
+85668,"1-Chloro-1,1-difluoroethane, water, unfiltered, recoverable, micrograms per liter",Y
+85795,"m-Xylene plus p-xylene, water, unfiltered, recoverable, micrograms per liter",Y
+89011,"Total microcystins plus nodularins, unfiltered water, freeze/thaw extraction, ADDA specific enzyme-linked immunosorbent assay, recoverable, micrograms per liter",Y
+90576,"1-Bromo-3-chloropropane-d6, surrogate, water, unfiltered, percent recovery",Y
+90607,"Tetrahydrofuran-d8, surrogate, water, unfiltered, percent recovery",Y
+90695,"1-Bromo-4-fluorobenzene, surrogate, water, unfiltered, ambient purge and trap method, percent recovery",Y
+90696,"Toluene-d8, surrogate, water, unfiltered, ambient purge and trap method, percent recovery",Y
+90701,"1-Bromo-4-fluorobenzene, surrogate, water, unfiltered, ambient purge and trap method, percent recovery",Y
+90703,"Toluene-d8, surrogate, NWQL schedule 4437, water, unfiltered, percent recovery",Y
+90754,"2-Fluorobiphenyl, surrogate, solids, NWQL PAH method, percent recovery",Y
+90755,"Nitrobenzene-d5, surrogate, solids, NWQL PAH method, percent recovery",Y
+90756,"p-Terphenyl-d14, surrogate, solids, NWQL PAH method, percent recovery",Y
+90867,"Trihalomethanes, water, unfiltered, maximum summation, micrograms per liter",Y
+91107,"Sample weight, NWQL PAH method, solids, grams",N
+91122,"Sample volume, water, filtered, milliliters",N
+99832,"1,2-Dichloroethane-d4, surrogate, water, unfiltered, percent recovery",Y
+496,"Loss on ignition, bed sediment, dry weight, milligrams per kilogram",N
+535,"Loss on ignition of suspended solids, water, unfiltered, milligrams per liter",N
+688,"Inorganic carbon, suspended sediment, total, milligrams per liter",Y
+82188,"Simetone, water, unfiltered, recoverable, micrograms per liter",Y
+80170,"Bed sediment, sieve diameter, percent smaller than 4 millimeters",N
+80171,"Bed sediment, sieve diameter, percent smaller than 8 millimeters",N
+80172,"Bed sediment, sieve diameter, percent smaller than 16 millimeters",N
+80173,"Bed sediment, sieve diameter, percent smaller than 32 millimeters",N
+4064,"Thallium, bed sediment smaller than 62.5 microns, dry sieved, total digestion, dry weight, milligrams per kilogram",Y
+96001,,N
+96100,,N
+96164,,N
+96175,,N
+96514,,N
+96620,,N
+96677,,N
+96860,,N
+96879,,N
+96910,,N
+96992,,N
+97025,,N
+97103,,N
+97200,,N
+97350,,N
+97394,,N
+97579,,N
+97751,,N
+97846,,N
+97952,,N
+98008,,N
+98065,,N
+98158,,N
+98199,,N
+99061,"Discharge, instantaneous, cubic meters per second",N
+99065,"Gage height, above datum, meters",N
+99854,"Sample weight, NWQL schedule 2502, grams",N
+115,"Sample treatment, code",N
+50016,"Transit rate, sampler, maximum, feet per second",N
+50569,"Total coliforms, defined substrate test method (DSTM), water, most probable number per 100 milliliters",Y
+61028,"Turbidity, water, unfiltered, field, nephelometric turbidity units",Y
+96180,,N
+96427,,N
+96450,,N
+97263,,N
+98062,,N
+99060,"Discharge, cubic meters per second",N
+99100,"Type of blank solution, code",N
+99102,"Type of blank sample, code",N
+99104,Reference material or spike lot number,N
+99202,"Lot number, first, organic-grade water, number",N
+99601,"Enterococci, defined substrate test method (DSTM), water, most probable number per 100 milliliters",Y
+72008,"Depth of well, feet below land surface datum",N
+96038,,N
+96351,,N
+96456,,N
+96986,,N
+97278,,N
+99872,"Turbidity, water, unfiltered, laboratory, Hach 2100AN, nephelometric turbidity units",Y
+99162,"Conductance standard NWIS lot number, 250 uS/cm KCl, National Field Supply Service (NFSS) stock number Q44FLD",Y
+99167,"Conductance standard NWIS lot number, 5000 uS/cm KCl, National Field Supply Service (NFSS) stock number Q48FLD",Y
+96207,,N
+98063,,N
+31613,"Fecal coliforms, M-FC MF (0.7 micron) method, water, colonies per 100 milliliters",Y
+99821,"Set number, NWQL schedule 2051",N
+99833,"Toluene-d8, surrogate, water, unfiltered, percent recovery",Y
+99834,"1-Bromo-4-fluorobenzene, surrogate, NWQL VOC schedules, water, unfiltered, percent recovery",Y
+99847,"Sample volume, NWQL schedule 2051, milliliters",N
+99857,"Sample volume, NWQL schedule 2010, milliliters",N
+601,"Total nitrogen [nitrate + nitrite + ammonia + organic-N], suspended sediment, total, milligrams per liter",Y
+667,"Phosphorus, suspended sediment, total, milligrams per liter as phosphorus",Y
+72254,"Water velocity reading from field sensor, feet per second",N
+99234,"Count of samples collected by autosampler, number",N
+430,"Carbonate, water, unfiltered, milligrams per liter as calcium carbonate",Y
+520,"Loss on ignition of dissolved solids, water, filtered, milligrams per liter",N
+673,"Organic phosphorus, water, filtered, milligrams per liter as phosphorus",Y
+691,"Inorganic carbon, water, filtered, milligrams per liter",Y
+31505,"Total coliforms, brilliant green lactose broth method, confirmed, water, most probable number per 100 milliliters",Y
+31615,"Fecal coliforms, EC broth method, water, most probable number per 100 milliliters",Y
+50,"Evaporation total, inches per day",N
+99870,"Julian date, in-bottle digestion, ddd",Y
+31621,"Fecal coliforms, A-1 broth method, 44.5 degrees Celsius, 24 hours, water, most probable number per 100 milliliters",Y
+99165,"Conductance standard NWIS lot number, 1000 uS/cm KCl, National Field Supply Service (NFSS) stock number Q47FLD",N
+99171,"pH 10 Buffer solution, NWIS lot number, National Field Supply Service (NFSS) stock numbers Q122FLD, Q123FLD",N
+99172,"pH 4 Buffer solution, NWIS lot number, National Field Supply Service (NFSS) stock numbers Q124FLD, Q125FLD",N
+99173,"pH 7 Buffer solution, NWIS lot number, National Field Supply Service (NFSS) stock numbers Q126FLD, Q127FLD",N
+96793,,N
+2,"Location in cross section, distance from right bank looking upstream, percent",N
+98131,,N
+200,"Incident light intensity, 400-700 nanometers, microeinsteins per square meter per second",N
+1012,"Beryllium, water, unfiltered, recoverable, micrograms per liter",Y
+1062,"Molybdenum, water, unfiltered, recoverable, micrograms per liter",Y
+1082,"Strontium, water, unfiltered, recoverable, micrograms per liter",Y
+1132,"Lithium, water, unfiltered, recoverable, micrograms per liter",Y
+49415,"2,4,6-Trichlorophenol, bed sediment smaller than 2 millimeters, wet sieved (native water), field, recoverable, dry weight, micrograms per kilogram",Y
